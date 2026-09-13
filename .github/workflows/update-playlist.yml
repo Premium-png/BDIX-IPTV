@@ -5,10 +5,8 @@ on:
   schedule:
     - cron: '30 2 * * *'
 
-# Keep this as `read` until the workflow has been reviewed and intentionally
-# installed. The final commit/push step is guarded by AUTO_COMMIT.
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: iptv-playlist-and-epg
@@ -19,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      AUTO_COMMIT: 'false'
+      AUTO_COMMIT: 'true'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
@@ -32,6 +30,7 @@ jobs:
           python - <<'PY'
           from __future__ import annotations
           import json, re, urllib.request
+          from datetime import datetime, timezone
           from collections import defaultdict
           from copy import deepcopy
           from pathlib import Path
@@ -160,7 +159,16 @@ jobs:
           for i,e in enumerate(final,1): output += [serialize(e,i),*e.get('extras',[]),e['url']]
           MASTER.write_text('\ufeff'+'\n'.join(output)+'\n',encoding='utf-8')
           REPORT.parent.mkdir(exist_ok=True)
-          REPORT.write_text(f'# IPTV Auto Update\n\n- Existing entries retained: {len(final)}\n- Added candidates/backups: {additions}\n- Rejected candidates: {rejected}\n- Duplicate URLs removed: {duplicates}\n- Candidate identity: exact normalized base name only\n',encoding='utf-8')
+          REPORT.write_text(
+              f'# IPTV Auto Update\n\n'
+              f'- Generated: {datetime.now(timezone.utc).isoformat()}\n'
+              f'- Existing entries retained: {len(final)}\n'
+              f'- Added candidates/backups: {additions}\n'
+              f'- Rejected candidates: {rejected}\n'
+              f'- Duplicate URLs removed: {duplicates}\n'
+              f'- Candidate identity: exact normalized base name only\n',
+              encoding='utf-8',
+          )
           PY
 
       - name: Commit only when explicitly enabled
@@ -172,3 +180,4 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add 'IPTV Playlist.m3u' reports/auto-update.md
           git diff --cached --quiet || (git commit -m 'bot: auto-update IPTV playlist' && git push)
+
