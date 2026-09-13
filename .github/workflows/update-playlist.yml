@@ -5,8 +5,10 @@ on:
   schedule:
     - cron: '30 2 * * *'
 
+# Keep this as `read` until the workflow has been reviewed and intentionally
+# installed. The final commit/push step is guarded by AUTO_COMMIT.
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: iptv-playlist-and-epg
@@ -17,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      AUTO_COMMIT: 'true'
+      AUTO_COMMIT: 'false'
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
@@ -170,4 +172,3 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add 'IPTV Playlist.m3u' reports/auto-update.md
           git diff --cached --quiet || (git commit -m 'bot: auto-update IPTV playlist' && git push)
-
