@@ -19,9 +19,9 @@ jobs:
     env:
       AUTO_COMMIT: 'true'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Validate and build playlist
         shell: bash
@@ -30,6 +30,7 @@ jobs:
           python - <<'PY'
           from __future__ import annotations
           import json, re, urllib.request
+          from datetime import datetime, timezone
           from collections import defaultdict
           from copy import deepcopy
           from pathlib import Path
@@ -45,6 +46,8 @@ jobs:
               'Indian Entertainment', 'International Movies', 'International Music',
               'Documentary & Wildlife', 'Kids', 'Religious', 'Sports',
           ]
+          # Deliberately conservative: only established/reputed channels may enter
+          # these focused groups. Expand these sets only after manual review.
           MAJOR = {
               'sports': {'espn', 'star sports', 'sony ten', 'sony liv', 't sports',
                          'bein sports', 'sky sports', 'eurosport', 'ptv sports',
@@ -72,6 +75,8 @@ jobs:
           BLOCKED = ('adult', 'porn', 'xxx', 'proxy', 'filex.me', 'vercel.app')
 
           def attrs(s):
+              # Strictly parse quoted metadata; malformed source lines are not
+              # allowed to become candidates.
               return dict(re.findall(r'''([\w-]+)="([^"]*)"''', s))
           def parse(text):
               out=[]; pending=None; extras=[]
@@ -100,6 +105,7 @@ jobs:
               if n in IN_BANGLA: return 'Indian Bangla'
               for group, tokens in MAJOR.items():
                   if any(t in n for t in tokens): return group.title() if group != 'kids' else 'Kids'
+              # Source group is accepted only after the name passes policy.
               if g in {norm(x) for x in GROUPS} and g not in {'adult','news'}:
                   return next(x for x in GROUPS if norm(x)==g)
               return None
@@ -130,7 +136,10 @@ jobs:
                   duplicates += 1; continue
               used.add(e['url']); e['canonical']=base(e['name']); e['group']=classify(e['canonical'],e['attrs'].get('group-title','')) or e['attrs'].get('group-title','Bangladesh')
               canonical[norm(e['canonical'])].append(e)
-          additions=0; rejected=0
+          # Existing entries are authoritative for membership. New source entries
+          # can only add a backup to an existing canonical channel or a channel
+          # explicitly admitted by classify(); fuzzy matching is never used.
+          additions=0; rejected=0; added_backups=[]; added_channels=[]; rejected_names=[]
           for src in parse_sources():
               url=src.get('url','').strip(); name=base(src.get('name',''))
               if not url or url in used: continue
@@ -138,11 +147,11 @@ jobs:
               if target:
                   primary=target[0]; group=primary['group']; limit=4 if group=='Bangladesh' else 2
                   if len(target)-1 >= limit: continue
-                  number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=[]; target.append(e); used.add(url); additions+=1; continue
+                  number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=[]; target.append(e); used.add(url); additions+=1; added_backups.append((e['name'],group,url)); continue
               group=classify(name,src.get('attrs',{}).get('group-title',''))
-              if not group or not src.get('attrs',{}).get('tvg-logo'): rejected+=1; continue
+              if not group or not src.get('attrs',{}).get('tvg-logo'): rejected+=1; rejected_names.append((name,src.get('attrs',{}).get('group-title',''),url)); continue
               e={'attrs':deepcopy(src['attrs']), 'name':name, 'canonical':name, 'url':url, 'extras':[], 'group':group}
-              canonical[key].append(e); used.add(url); additions+=1
+              canonical[key].append(e); used.add(url); additions+=1; added_channels.append((name,group,url))
           final=[e for bucket in canonical.values() for e in bucket]
           rank={g:i for i,g in enumerate(GROUPS)}
           final.sort(key=lambda e:(rank.get(e['group'],999),norm(e['canonical']),0 if not is_backup(e['name']) else int(re.search(r'\d+',e['name']).group()),norm(e['name'])))
@@ -150,10 +159,31 @@ jobs:
           for i,e in enumerate(final,1): output += [serialize(e,i),*e.get('extras',[]),e['url']]
           MASTER.write_text('\ufeff'+'\n'.join(output)+'\n',encoding='utf-8')
           REPORT.parent.mkdir(exist_ok=True)
-          REPORT.write_text(f'# IPTV Auto Update\n\n- Existing entries retained: {len(final)}\n- Added candidates/backups: {additions}\n- Rejected candidates: {rejected}\n- Duplicate URLs removed: {duplicates}\n- Candidate identity: exact normalized base name only\n',encoding='utf-8')
+          lines=[
+              '# IPTV Auto Update','',
+              f'Generated: **{datetime.now(timezone.utc).isoformat()}**','',
+              '## Summary','',
+              f'- Final playlist entries: **{len(final)}**',
+              f'- New primary channels: **{len(added_channels)}**',
+              f'- New backup streams: **{len(added_backups)}**',
+              f'- Rejected new candidates: **{rejected}**',
+              f'- Duplicate URLs removed: **{duplicates}**','',
+              '## Category totals','',
+          ]
+          totals=defaultdict(int)
+          for e in final: totals[e['group']]+=1
+          lines += [f'- **{g}**: {totals[g]}' for g in GROUPS]
+          lines += ['', '## New primary channels', '']
+          lines += [f'- **{n}** — `{g}` — {u}' for n,g,u in added_channels] or ['- None']
+          lines += ['', '## New backup streams', '']
+          lines += [f'- **{n}** — `{g}` — {u}' for n,g,u in added_backups] or ['- None']
+          lines += ['', '## Rejected candidates', '']
+          lines += [f'- **{n}** — source group `{g}` — {u}' for n,g,u in rejected_names] or ['- None']
+          lines += ['', '## Policy', '', '- Existing membership is authoritative.', '- Candidate identity uses exact normalized base name only.', '- New candidates require an approved category and logo.']
+          REPORT.write_text('\n'.join(lines)+'\n', encoding='utf-8')
           PY
 
-      - name: Commit changes
+      - name: Commit only when explicitly enabled
         if: env.AUTO_COMMIT == 'true'
         shell: bash
         run: |
@@ -162,3 +192,4 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add 'IPTV Playlist.m3u' reports/auto-update.md
           git diff --cached --quiet || (git commit -m 'bot: auto-update IPTV playlist' && git push)
+
