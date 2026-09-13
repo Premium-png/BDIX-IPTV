@@ -19,9 +19,9 @@ jobs:
     env:
       AUTO_COMMIT: 'true'
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Validate and build playlist
         shell: bash
@@ -30,7 +30,6 @@ jobs:
           python - <<'PY'
           from __future__ import annotations
           import json, re, urllib.request
-          from datetime import datetime, timezone
           from collections import defaultdict
           from copy import deepcopy
           from pathlib import Path
@@ -46,8 +45,6 @@ jobs:
               'Indian Entertainment', 'International Movies', 'International Music',
               'Documentary & Wildlife', 'Kids', 'Religious', 'Sports',
           ]
-          # Deliberately conservative: only established/reputed channels may enter
-          # these focused groups. Expand these sets only after manual review.
           MAJOR = {
               'sports': {'espn', 'star sports', 'sony ten', 'sony liv', 't sports',
                          'bein sports', 'sky sports', 'eurosport', 'ptv sports',
@@ -75,8 +72,6 @@ jobs:
           BLOCKED = ('adult', 'porn', 'xxx', 'proxy', 'filex.me', 'vercel.app')
 
           def attrs(s):
-              # Strictly parse quoted metadata; malformed source lines are not
-              # allowed to become candidates.
               return dict(re.findall(r'''([\w-]+)="([^"]*)"''', s))
           def parse(text):
               out=[]; pending=None; extras=[]
@@ -105,7 +100,6 @@ jobs:
               if n in IN_BANGLA: return 'Indian Bangla'
               for group, tokens in MAJOR.items():
                   if any(t in n for t in tokens): return group.title() if group != 'kids' else 'Kids'
-              # Source group is accepted only after the name passes policy.
               if g in {norm(x) for x in GROUPS} and g not in {'adult','news'}:
                   return next(x for x in GROUPS if norm(x)==g)
               return None
@@ -136,9 +130,6 @@ jobs:
                   duplicates += 1; continue
               used.add(e['url']); e['canonical']=base(e['name']); e['group']=classify(e['canonical'],e['attrs'].get('group-title','')) or e['attrs'].get('group-title','Bangladesh')
               canonical[norm(e['canonical'])].append(e)
-          # Existing entries are authoritative for membership. New source entries
-          # can only add a backup to an existing canonical channel or a channel
-          # explicitly admitted by classify(); fuzzy matching is never used.
           additions=0; rejected=0
           for src in parse_sources():
               url=src.get('url','').strip(); name=base(src.get('name',''))
@@ -159,19 +150,10 @@ jobs:
           for i,e in enumerate(final,1): output += [serialize(e,i),*e.get('extras',[]),e['url']]
           MASTER.write_text('\ufeff'+'\n'.join(output)+'\n',encoding='utf-8')
           REPORT.parent.mkdir(exist_ok=True)
-          REPORT.write_text(
-              f'# IPTV Auto Update\n\n'
-              f'- Generated: {datetime.now(timezone.utc).isoformat()}\n'
-              f'- Existing entries retained: {len(final)}\n'
-              f'- Added candidates/backups: {additions}\n'
-              f'- Rejected candidates: {rejected}\n'
-              f'- Duplicate URLs removed: {duplicates}\n'
-              f'- Candidate identity: exact normalized base name only\n',
-              encoding='utf-8',
-          )
+          REPORT.write_text(f'# IPTV Auto Update\n\n- Existing entries retained: {len(final)}\n- Added candidates/backups: {additions}\n- Rejected candidates: {rejected}\n- Duplicate URLs removed: {duplicates}\n- Candidate identity: exact normalized base name only\n',encoding='utf-8')
           PY
 
-      - name: Commit only when explicitly enabled
+      - name: Commit changes
         if: env.AUTO_COMMIT == 'true'
         shell: bash
         run: |
@@ -180,4 +162,3 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add 'IPTV Playlist.m3u' reports/auto-update.md
           git diff --cached --quiet || (git commit -m 'bot: auto-update IPTV playlist' && git push)
-
