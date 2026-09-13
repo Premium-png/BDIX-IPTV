@@ -186,6 +186,9 @@ jobs:
               "dw": "DW News",
               "trace sport": "Trace Sport Stars",
               "music tv": "Kronehit TV",
+              "btv": "BTV National",
+              "ekushe tv": "Ekushey TV",
+              "independent": "Independent TV",
               "&xplore": "&Xplor HD",
           }
 
@@ -349,15 +352,27 @@ jobs:
               "colors bangla", "sun bangla", "enter 10 bangla", "enterr10 bangla",
               "bangla jago", "republic bangla", "tv9 bangla", "sangeet bangla",
           )
-          BANGLADESH_NAMES = (
-              "atn bangla", "atn news", "jamuna", "somoy", "ekattor", "dbc",
-              "ntv", "rtv", "channel i", "banglavision", "bangla vision",
-              "boishakhi", "duronto", "deepto", "maasranga", "independent",
-              "news 24", "mohona", "bijoy", "mytv", "desh tv", "asian tv",
-              "btv", "ekushey", "channel 24",
-              "news 21", "tbn24", "thikana", "time tv usa", "dtv usa",
-              "nrb", "desh bangla", "global tv", "me tv",
-          )
+          # Exact trusted names only. Do not use substring matching here: a token
+          # such as "rtv" incorrectly matches foreign names like RTV Noord and Supertv.
+          VERIFIED_BANGLADESH_NAMES = frozenset({
+              "ananda tv", "asian tv", "atn bangla", "atn bangla uk",
+              "atn news", "bangla 1", "bangla tv", "banglavision",
+              "bengali beats", "bijoy tv", "boishakhi tv", "btv",
+              "btv chattogram", "btv national", "btv news", "channel 1",
+              "channel 9", "channel 16", "channel 24", "channel 52",
+              "channel europe", "channel i", "channel s", "channel s uk",
+              "dbc news", "deepto tv", "desh tv", "deshi tv", "doyel tv",
+              "dtv usa", "duronto tv", "ekattor tv", "ekhon tv",
+              "ekushe tv", "ekushey tv", "enter tv", "ep tv",
+              "g series drama", "gazi tv", "global tv", "green tv",
+              "independent", "independent tv", "jago news 24", "jamuna tv",
+              "jonmobhumi tv", "maasranga tv", "me tv", "mohona tv",
+              "movie bangla", "my tv", "nagorik tv", "news 21 bangla tv",
+              "news 24", "nexus tv", "nrb hd", "ntv", "ntv europe",
+              "probashi tv", "rajdhani tv", "rtv", "sa tv", "somoy tv",
+              "srk", "tbn24", "thikana", "time televis",
+              "us-bd journal 24 tv",
+          })
 
           def fetch(url: str) -> str:
               req = urllib.request.Request(
@@ -686,12 +701,18 @@ jobs:
               low = text.lower()
               return any(word in low for word in words)
 
+          def bangladesh_name_key(name: str) -> str:
+              return " ".join(strip_backup(name).casefold().split())
+
+          def is_verified_bangladesh_name(name: str) -> bool:
+              return bangladesh_name_key(name) in VERIFIED_BANGLADESH_NAMES
+
           def is_foreign_news(name: str, source_group: str = "") -> bool:
-              """Identify news channels outside the Bangladesh category."""
+              """Identify news channels outside the verified Bangladesh list."""
               nl = strip_backup(name).casefold()
               gl = (source_group or "").strip().casefold()
 
-              if has(nl, BANGLADESH_NAMES):
+              if is_verified_bangladesh_name(name):
                   return False
 
               if gl in {"news", "international news", "indian news", "world news"}:
@@ -786,8 +807,11 @@ jobs:
               gl = g.lower()
               nl = name.lower()
 
-              # Preserve any category already supported by the current playlist.
+              # Preserve a supported source category, except Bangladesh: source
+              # labels are untrusted and require an exact verified channel name.
               if g in GROUP_ORDER:
+                  if g == "Bangladesh" and not is_verified_bangladesh_name(name):
+                      return None
                   return g
 
               # Adult / 18+ content.
@@ -854,20 +878,9 @@ jobs:
               ):
                   return "Documentary & Wildlife"
 
-              # Bangladesh channels, including Bangladesh news channels.
-              if "bangladesh" in gl or gl in {"bd", "bangladesh tv"}:
-                  return "Bangladesh"
-
-              if has(nl, BANGLADESH_NAMES) or has(
-                  nl,
-                  (
-                      "channel 1",
-                      "btv news",
-                      "btv shangshad",
-                      "btv parliament",
-                      "sangsad",
-                  ),
-              ):
+              # Bangladesh is allowlist-only. A claimed BD source group alone is
+              # not sufficient because public source playlists are often mislabeled.
+              if is_verified_bangladesh_name(name):
                   return "Bangladesh"
 
               # Keep all non-Bangladeshi news together and near the end of the
@@ -878,7 +891,7 @@ jobs:
               if gl in {"bangla", "bengali"} or "bangla" in gl:
                   if has(nl, INDIAN_BANGLA):
                       return "Indian Bangla"
-                  if has(nl, BANGLADESH_NAMES):
+                  if is_verified_bangladesh_name(name):
                       return "Bangladesh"
                   return None
 
@@ -1032,7 +1045,16 @@ jobs:
                   continue
 
               x = deepcopy(e)
-              x["canonical"] = strip_backup(e["name"])
+              original_canonical = strip_backup(e["name"])
+              x["canonical"] = preferred_name(original_canonical)
+              x["_alias_priority"] = int(x["canonical"] != original_canonical)
+              existing_backup_number = backup_number(e["name"])
+              if x["canonical"] != original_canonical:
+                  x["name"] = (
+                      x["canonical"]
+                      if existing_backup_number == 0
+                      else f"{x['canonical']} [Backup {existing_backup_number}]"
+                  )
               x["group"] = e["attrs"].get("group-title", "")
               x["logo"] = e["attrs"].get("tvg-logo", "")
 
@@ -1070,6 +1092,9 @@ jobs:
                   x["group"] = "Bangladesh"
 
               # Enforce the revised master policy on existing entries.
+              if x["group"] == "Bangladesh" and not is_verified_bangladesh_name(e["name"]):
+                  cleaned_existing.append((e["name"], e["url"]))
+                  continue
               if x["group"] != "Bangladesh" and is_foreign_news(e["name"], x["group"]):
                   cleaned_existing.append((e["name"], e["url"]))
                   continue
@@ -1480,7 +1505,14 @@ jobs:
 
               changed = 0
               for canonical_name, items in buckets.items():
-                  primaries = [e for e in items if backup_number(e["name"]) == 0]
+                  primaries = sorted(
+                      [e for e in items if backup_number(e["name"]) == 0],
+                      key=lambda e: (
+                          e.get("_alias_priority", 0),
+                          str(e.get("attrs", {}).get("tvg-id", "")).startswith("local."),
+                          e["name"].casefold(),
+                      ),
+                  )
                   backups = [e for e in items if backup_number(e["name"]) > 0]
                   ordered = primaries[:1] + primaries[1:] + sorted(
                       backups,
@@ -1550,6 +1582,7 @@ jobs:
               "- The updater uses only the categories already present in the current playlist:",
               "  " + ", ".join(GROUP_ORDER),
               "- Non-Bangladeshi news channels are excluded.",
+              "- Bangladesh entries require an exact verified channel name; source group labels are not trusted.",
               "- Bangladesh news channels remain inside the Bangladesh category.",
               "- Backups for existing channels inherit the primary channel's current category.",
               "- Adult channels and user-rejected stream URLs are excluded permanently.",
