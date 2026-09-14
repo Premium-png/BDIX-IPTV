@@ -1,36 +1,203 @@
 # IPTV Auto Update
 
-Generated: **2026-09-14T05:15:40.587402+00:00**
+Generated: **2026-09-14T06:16:12.898785+00:00**
 
 ## Summary
 
-- Final playlist entries: **793**
-- New primary channels: **0**
-- New backup streams: **0**
-- Rejected new candidates: **943**
+- Final playlist entries: **787**
+- New primary channels: **12**
+- New backup streams: **157**
+- Rejected new candidates: **948**
 - Duplicate URLs removed: **0**
 
 ## Category totals
 
-- **Bangladesh**: 183
+- **Bangladesh**: 177
 - **Indian Bangla**: 78
 - **Indian Movies**: 60
 - **Indian Music**: 58
 - **Indian Entertainment**: 47
 - **International Movies**: 55
-- **International Music**: 63
+- **International Music**: 64
 - **Documentary & Wildlife**: 40
-- **Kids**: 51
+- **Kids**: 50
 - **Religious**: 46
 - **Sports**: 112
 
 ## New primary channels
 
-- None
+- **BTV** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/btv-1/index.m3u8
+- **Rongeen** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/rongeen-1/index.m3u8
+- **Enter 10 Bangla** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/enter-10-bangla-1/index.m3u8
+- **Khusbo Bangla** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/khusbo-bangla-1/index.m3u8
+- **Star Plus HD** — `Indian Entertainment` — https://iptvlive.ahmed-bd-org.workers.dev/star-plus-hd-1/index.m3u8
+- **Sony Sab HD** — `Indian Entertainment` — https://iptvlive.ahmed-bd-org.workers.dev/sony-sab-hd-1/index.m3u8
+- **T Sports HD** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/t-sports-hd-1/index.m3u8
+- **Willow Sports** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-1/index.m3u8
+- **Willow Sports 2** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/willow-sports-2-1/index.m3u8
+- **Discovery HD** — `Documentary & Wildlife` — https://iptvlive.ahmed-bd-org.workers.dev/discovery-hd-1/index.m3u8
+- **Travel XP HD** — `Documentary & Wildlife` — https://iptvlive.ahmed-bd-org.workers.dev/travel-xp-hd-1/index.m3u8
+- **MORE THEN SPORTS TV** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/more-then-sports-tv-1/index.m3u8
 
 ## New backup streams
 
-- None
+- **Jamuna TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/jamuna-tv-1/index.m3u8
+- **NTV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/ntv-1/index.m3u8
+- **Channel 1 [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/channel-1-1/index.m3u8
+- **Maasranga TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/maasranga-tv-1/index.m3u8
+- **ATN News [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/atn-news-1/index.m3u8
+- **Independent TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/independent-tv-1/index.m3u8
+- **Somoy TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/somoy-tv-1/index.m3u8
+- **Duronto TV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/duronto-tv-1/index.m3u8
+- **Bijoy TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/bijoy-tv-1/index.m3u8
+- **Boishakhi TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/boishakhi-tv-1/index.m3u8
+- **ATN Bangla [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/atn-bangla-1/index.m3u8
+- **RTV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/rtv-1/index.m3u8
+- **Jago News 24 [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/jago-news-24-1/index.m3u8
+- **Asian TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/asian-tv-1/index.m3u8
+- **Global TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/global-tv-1/index.m3u8
+- **SA TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/sa-tv-1/index.m3u8
+- **Channel 16 [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/channel-16-1/index.m3u8
+- **Desh TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/desh-tv-1/index.m3u8
+- **Bangla TV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/bangla-tv-1/index.m3u8
+- **Ananda TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/ananda-tv-1/index.m3u8
+- **Mohona TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/mohona-tv-1/index.m3u8
+- **Movie Bangla [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/movie-bangla-1/index.m3u8
+- **My TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/my-tv-1/index.m3u8
+- **Rajdhani TV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/rajdhani-tv-1/index.m3u8
+- **Ekhon TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/ekhon-tv-1/index.m3u8
+- **Green TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/green-tv-1/index.m3u8
+- **ME TV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/me-tv-1/index.m3u8
+- **Thikana [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/thikana-1/index.m3u8
+- **BTV News [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/btv-news-1/index.m3u8
+- **ATN Bangla [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/atn-bangla-2/index.m3u8
+- **ATN News [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/atn-news-2/index.m3u8
+- **Channel I [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/channel-i-1/index.m3u8
+- **RTV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/rtv-2/index.m3u8
+- **Banglavision [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/banglavision-1/index.m3u8
+- **Ananda TV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/ananda-tv-2/index.m3u8
+- **Somoy TV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/somoy-tv-2/index.m3u8
+- **Channel 1 [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/channel-1-2/index.m3u8
+- **News 21 Bangla TV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/news-21-bangla-tv-1/index.m3u8
+- **Enter TV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/enter-tv-1/index.m3u8
+- **DBC News [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/dbc-news-1/index.m3u8
+- **Desh TV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/desh-tv-2/index.m3u8
+- **SA TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/sa-tv-2/index.m3u8
+- **News 24 [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/news-24-1/index.m3u8
+- **Global TV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/global-tv-2/index.m3u8
+- **Channel S [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/channel-s-1/index.m3u8
+- **Bangla TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/bangla-tv-2/index.m3u8
+- **Bijoy TV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/bijoy-tv-2/index.m3u8
+- **My TV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/my-tv-2/index.m3u8
+- **Green TV [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/green-tv-2/index.m3u8
+- **Movie Bangla [Backup 4]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/movie-bangla-2/index.m3u8
+- **ME TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/me-tv-2/index.m3u8
+- **SRK [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/srk-1/index.m3u8
+- **Medina Live [Backup 2]** — `Religious` — https://iptvlive.ahmed-bd-org.workers.dev/medina-live-1/index.m3u8
+- **Islamic TV [Backup 1]** — `Religious` — https://iptvlive.ahmed-bd-org.workers.dev/islamic-tv-1/index.m3u8
+- **Iqra Bangla [Backup 1]** — `Religious` — https://iptvlive.ahmed-bd-org.workers.dev/iqra-bangla-1/index.m3u8
+- **Quran TV [Backup 1]** — `Religious` — https://iptvlive.ahmed-bd-org.workers.dev/quran-tv-1/index.m3u8
+- **Iqraa TV [Backup 1]** — `Religious` — https://iptvlive.ahmed-bd-org.workers.dev/iqraa-tv-1/index.m3u8
+- **Duronto TV [Backup 2]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/duronto-tv-2/index.m3u8
+- **Nikki HD [Backup 1]** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/nikki-hd-1/index.m3u8
+- **Nick Bangla [Backup 1]** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/nick-bangla-1/index.m3u8
+- **Sony Yay [Backup 2]** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/sony-yay-1/index.m3u8
+- **Discovery Kids [Backup 2]** — `Documentary & Wildlife` — https://iptvlive.ahmed-bd-org.workers.dev/discovery-kids-1/index.m3u8
+- **Pogo [Backup 2]** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/pogo-1/index.m3u8
+- **Star Jalsha HD [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/star-jalsha-hd-1/index.m3u8
+- **Zee Bangla HD [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/zee-bangla-hd-1/index.m3u8
+- **Colors Bangla HD [Backup 1]** — `Indian Entertainment` — https://iptvlive.ahmed-bd-org.workers.dev/colors-bangla-hd-1/index.m3u8
+- **Sun Bangla [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/sun-bangla-1/index.m3u8
+- **R Plus Gold [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/r-plus-gold-1/index.m3u8
+- **Jalsha Movies HD [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/jalsha-movies-hd-1/index.m3u8
+- **Akash Bangla [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/akash-bangla-1/index.m3u8
+- **Ruposhi Bangla [Backup 2]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/ruposhi-bangla-1/index.m3u8
+- **Zee Bollywood [Backup 2]** — `Indian Movies` — https://iptvlive.ahmed-bd-org.workers.dev/zee-bollywood-1/index.m3u8
+- **HUM TV [Backup 2]** — `Indian Entertainment` — https://iptvlive.ahmed-bd-org.workers.dev/hum-tv-1/index.m3u8
+- **Sony Max 2 [Backup 2]** — `Indian Movies` — https://iptvlive.ahmed-bd-org.workers.dev/sony-max-2-1/index.m3u8
+- **ZB Cinema [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/zb-cinema-1/index.m3u8
+- **Bengali Beats [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/bengali-beats-1/index.m3u8
+- **Sangeet Bangla [Backup 2]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/sangeet-bangla-1/index.m3u8
+- **PTC Music [Backup 1]** — `Indian Music` — https://iptvlive.ahmed-bd-org.workers.dev/ptc-music-1/index.m3u8
+- **Epic Music [Backup 2]** — `Indian Music` — https://iptvlive.ahmed-bd-org.workers.dev/epic-music-1/index.m3u8
+- **7S Music [Backup 2]** — `Indian Music` — https://iptvlive.ahmed-bd-org.workers.dev/7s-music-1/index.m3u8
+- **Music India [Backup 2]** — `Indian Music` — https://iptvlive.ahmed-bd-org.workers.dev/music-india-1/index.m3u8
+- **YRF Music [Backup 2]** — `Indian Music` — https://iptvlive.ahmed-bd-org.workers.dev/yrf-music-1/index.m3u8
+- **Sangeet Bhojpuri [Backup 1]** — `International Music` — https://iptvlive.ahmed-bd-org.workers.dev/sangeet-bhojpuri-1/index.m3u8
+- **PTV Sports [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/ptv-sports-1/index.m3u8
+- **Ten Cricket [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/ten-cricket-1/index.m3u8
+- **TUDN [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/tudn-1/index.m3u8
+- **Star Sports 1 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-1-1/index.m3u8
+- **Star Sports 2 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-2-1/index.m3u8
+- **Star Sports SL 1 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-sl-1-1/index.m3u8
+- **Star Sports SL 2 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/star-sports-sl-2-1/index.m3u8
+- **Sony Ten 1 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-1-1/index.m3u8
+- **Sony Ten 2 [Backup 2]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-2-1/index.m3u8
+- **Sony Ten 5 [Backup 2]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/sony-ten-5-1/index.m3u8
+- **beIN Sports [Backup 2]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1/index.m3u8
+- **beIN Sports 1 [Backup 2]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/bein-sports-1-1/index.m3u8
+- **Mundial [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/mundial-1/index.m3u8
+- **Animal Planet HD [Backup 1]** — `Documentary & Wildlife` — https://iptvlive.ahmed-bd-org.workers.dev/animal-planet-hd-1/index.m3u8
+- **National Geographic HD [Backup 1]** — `Documentary & Wildlife` — https://iptvlive.ahmed-bd-org.workers.dev/national-geographic-hd-1/index.m3u8
+- **T Sports HD [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/t-sports-hd-2/index.m3u8
+- **PTV Sports [Backup 2]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/ptv-sports-2/index.m3u8
+- **TSN 1 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/tsn-1-1/index.m3u8
+- **TSN 2 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/tsn-2-1/index.m3u8
+- **TSN 3 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/tsn-3-1/index.m3u8
+- **Bleav Football [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/bleav-football-1/index.m3u8
+- **KTV Sport Plus [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/ktv-sport-plus-1/index.m3u8
+- **Sports First TV [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/sports-first-tv-1/index.m3u8
+- **Xtream Sports [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/xtream-sports-1/index.m3u8
+- **Bahrain Sports 1 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/bahrain-sports-1-1/index.m3u8
+- **DD Sports [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/dd-sports-1/index.m3u8
+- **NBC Sports [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/nbc-sports-1/index.m3u8
+- **WOF 1 [Backup 2]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/wof-1-1/index.m3u8
+- **Speed Sports 1 [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/speed-sports-1-1/index.m3u8
+- **Oman Sports TV [Backup 1]** — `Sports` — https://iptvlive.ahmed-bd-org.workers.dev/oman-sports-tv-1/index.m3u8
+- **MovieSphere [Backup 1]** — `International Movies` — https://iptvlive.ahmed-bd-org.workers.dev/moviesphere-1/index.m3u8
+- **Rakuten Movies [Backup 1]** — `International Movies` — https://iptvlive.ahmed-bd-org.workers.dev/rakuten-movies-1/index.m3u8
+- **Cowboy Movie Channel [Backup 1]** — `International Movies` — https://iptvlive.ahmed-bd-org.workers.dev/cowboy-movie-channel-1/index.m3u8
+- **Action Hollywood Movies [Backup 2]** — `International Movies` — https://iptvlive.ahmed-bd-org.workers.dev/action-hollywood-movies-1/index.m3u8
+- **Hindi Movie Classic 24 [Backup 1]** — `Indian Movies` — https://iptvlive.ahmed-bd-org.workers.dev/hindi-movie-classic-24-1/index.m3u8
+- **DD Bangla [Backup 2]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/dd-bangla-1/index.m3u8
+- **Enter 10 Bangla [Backup 1]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/enter-10-bangla-2/index.m3u8
+- **Dios Te Ve Kids [Backup 1]** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/dios-te-ve-kids-1/index.m3u8
+- **Kids Pang TV [Backup 1]** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/kids-pang-tv-1/index.m3u8
+- **TVCARiB Kids & Teens [Backup 1]** — `Kids` — https://iptvlive.ahmed-bd-org.workers.dev/tvcarib-kids-teens-1/index.m3u8
+- **Channel Win [Backup 1]** — `Religious` — https://iptvlive.ahmed-bd-org.workers.dev/channel-win-1/index.m3u8
+- **Persiana Kore [Backup 1]** — `International Movies` — https://iptvlive.ahmed-bd-org.workers.dev/persiana-kore-1/index.m3u8
+- **Deepto TV [Backup 1]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/deepto-tv-1/index.m3u8
+- **ME TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/me-tv-3/index.m3u8
+- **Boishakhi TV [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/boishakhi-tv-2/index.m3u8
+- **Bhojpuri Cinema [Backup 1]** — `Indian Movies` — https://iptvlive.ahmed-bd-org.workers.dev/bhojpuri-cinema-1/index.m3u8
+- **Star Jalsha HD [Backup 2]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/star-jalsha-hd-2/index.m3u8
+- **Zee Bangla HD [Backup 2]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/zee-bangla-hd-2/index.m3u8
+- **Jalsha Movies HD [Backup 2]** — `Indian Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/jalsha-movies-hd-2/index.m3u8
+- **8XM [Backup 1]** — `Indian Music` — https://iptvlive.ahmed-bd-org.workers.dev/8xm-1/index.m3u8
+- **News 24 [Backup 3]** — `Bangladesh` — https://iptvlive.ahmed-bd-org.workers.dev/news-24-2/index.m3u8
+- **1Mus [Backup 1]** — `International Music` — https://iptvlive.ahmed-bd-org.workers.dev/1mus-1/index.m3u8
+- **CMC TV [Backup 1]** — `International Music` — https://iptvlive.ahmed-bd-org.workers.dev/cmc-tv-1/index.m3u8
+- **Oxygen Music [Backup 1]** — `International Music` — https://iptvlive.ahmed-bd-org.workers.dev/oxygen-music-1/index.m3u8
+- **Dance TV [Backup 1]** — `International Music` — https://iptvlive.ahmed-bd-org.workers.dev/dance-tv-1/index.m3u8
+- **Radio Norba TV [Backup 2]** — `International Music` — https://iptvlive.ahmed-bd-org.workers.dev/radio-norba-tv-1/index.m3u8
+- **Al Quran Al Kareem TV [Backup 2]** — `Religious` — https://iptvlive.ahmed-bd-org.workers.dev/al-quran-al-kareem-tv-1/index.m3u8
+- **MBC Bollywood [Backup 2]** — `Indian Movies` — https://iptvlive.ahmed-bd-org.workers.dev/mbc-bollywood-1/index.m3u8
+- **Jamuna TV [Backup 3]** — `Bangladesh` — https://iptv-proxy.ahmed-bd-org.workers.dev/jamuna-tv/index.m3u8
+- **NTV [Backup 2]** — `Bangladesh` — https://iptv-proxy.ahmed-bd-org.workers.dev/ntv/index.m3u8
+- **Channel 1 [Backup 3]** — `Bangladesh` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
+- **ATN News [Backup 3]** — `Bangladesh` — https://iptv-proxy.ahmed-bd-org.workers.dev/atn-news/index.m3u8
+- **Independent TV [Backup 3]** — `Bangladesh` — https://iptv-proxy.ahmed-bd-org.workers.dev/independent-tv/index.m3u8
+- **Duronto TV [Backup 3]** — `Bangladesh` — https://iptv-proxy.ahmed-bd-org.workers.dev/duronto-tv/index.m3u8
+- **Boishakhi TV [Backup 4]** — `Bangladesh` — https://iptv-proxy.ahmed-bd-org.workers.dev/boishakhi-tv/index.m3u8
+- **Bangla TV [Backup 3]** — `Bangladesh` — https://cdn.ghuddi.live/Bangla_TV/Bangla_TV_BD/playlist.m3u8
+- **Mohona TV [Backup 4]** — `Bangladesh` — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=mohona_tv&format=.m3u8
+- **Thikana [Backup 2]** — `Bangladesh` — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=thikana&format=.m3u
+- **BTV [Backup 1]** — `Bangladesh` — https://tvsen6.aynaott.com/opREbXLqJ2HFYPCXTJBa/index.m3u8
+- **Willow Sports [Backup 1]** — `Sports` — https://mflixott.com/tv/dd/live.php/346.m3u8
+- **Willow Sports 2 [Backup 1]** — `Sports` — https://mflixott.com/tv/dd/live.php/598.m3u8
+- **TSN 1 [Backup 2]** — `Sports` — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_1&format=.m3u8
+- **TSN 2 [Backup 2]** — `Sports` — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_2&format=.m3u8
+- **TSN 3 [Backup 2]** — `Sports` — http://sm-monirul.top/@monirul_Islam_SM/proxy.php?id=tsn_3&format=.m3u8
 
 ## Rejected candidates
 
@@ -45,6 +212,7 @@ Generated: **2026-09-14T05:15:40.587402+00:00**
 - **Channel I HD** — source group `Entertainment` — https://iptvlive.ahmed-bd-org.workers.dev/channel-i-hd-1/index.m3u8
 - **BTV Shangshad** — source group `News` — https://iptvlive.ahmed-bd-org.workers.dev/star-newshttpapp24jagobdcombdc3vydmvyx8rpbeu9mi8xny8ymfdeehgcfrgzq6ntagdeoaefzbf92ywxizto0u0ezn1izmyfvcedsefedekinkvn3ptomdfsewrtaw51aiphnpti2starnewsbdstreamtracks-v1a1monom3u8-1/index.m3u8
 - **G TV** — source group `Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/g-tv-1/index.m3u8
+- **NRB HD** — source group `Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/nrb-hd-1/index.m3u8
 - **Probashi** — source group `Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/probashi-1/index.m3u8
 - **Deshe Bideshe** — source group `Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/deshe-bideshe-1/index.m3u8
 - **Sananda** — source group `Bangla` — https://iptvlive.ahmed-bd-org.workers.dev/sananda-1/index.m3u8
@@ -58,6 +226,7 @@ Generated: **2026-09-14T05:15:40.587402+00:00**
 - **Jamuna** — source group `Bangladeshi` — https://iptvlive.ahmed-bd-org.workers.dev/jamuna-1/index.m3u8
 - **Star News** — source group `Bangladeshi` — https://iptvlive.ahmed-bd-org.workers.dev/star-news-1/index.m3u8
 - **Rajdhani** — source group `Bangladeshi` — https://iptvlive.ahmed-bd-org.workers.dev/rajdhani-1/index.m3u8
+- **EP TV** — source group `Bangladeshi` — https://iptvlive.ahmed-bd-org.workers.dev/ep-tv-1/index.m3u8
 - **Ekattor HD** — source group `Bangladeshi` — https://iptvlive.ahmed-bd-org.workers.dev/ekattor-hd-2/index.m3u8
 - **Deepto** — source group `Bangladeshi` — https://iptvlive.ahmed-bd-org.workers.dev/deepto-1/index.m3u8
 - **Maasranga** — source group `Bangladeshi` — https://iptvlive.ahmed-bd-org.workers.dev/maasranga-1/index.m3u8
@@ -527,12 +696,15 @@ Generated: **2026-09-14T05:15:40.587402+00:00**
 - **Channel I HD** — source group `Entertainment` — https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
 - **BTV Shangshad** — source group `News` — https://iptv-proxy.ahmed-bd-org.workers.dev/btv/index.m3u8
 - **G TV** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
+- **NRB HD** — source group `Bangla` — https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
+- **Probashi** — source group `Bangla` — http://158.69.24.53:8080/probashi_tv/index.m3u8
 - **Deshe Bideshe** — source group `Bangla` — https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
 - **Jonmo Bhumi TV** — source group `Bangla` — https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/tracks-v1a1/mono.m3u8
 - **Mohona TV HD** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
 - **Bangla 1** — source group `Bangladeshi` — https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8
 - **Independent** — source group `Bangladeshi` — https://sm-monirul.top/@monirul_Islam_SM/play/independent_tv.m3u8
 - **Star News** — source group `Bangladeshi` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8
+- **EP TV** — source group `Bangladeshi` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8
 - **Asian** — source group `Bangladeshi` — https://mtlivestream.com/hls/asian/ytlive/index.m3u8
 - **& Picture** — source group `Indian Hindi` — https://stream.ottplus.bd/live/and_picture_hd_abr/index.m3u8
 - **Sony Television** — source group `Indian Hindi` — https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8
