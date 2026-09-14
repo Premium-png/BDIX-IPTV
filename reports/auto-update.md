@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-09-14T06:45:13.244808+00:00**
+Generated: **2026-09-14T08:00:04.354239+00:00**
 
 ## Summary
 
 - Final playlist entries: **633**
-- New primary channels: **1**
-- New backup streams: **14**
+- New primary channels: **0**
+- New backup streams: **0**
 - Rejected new candidates: **1148**
 - Duplicate URLs removed: **0**
 
@@ -26,24 +26,11 @@ Generated: **2026-09-14T06:45:13.244808+00:00**
 
 ## New primary channels
 
-- **BTV** — `Bangladesh` — https://tvsen6.aynaott.com/opREbXLqJ2HFYPCXTJBa/index.m3u8
+- None
 
 ## New backup streams
 
-- **Channel 1 [Backup 1]** — `Bangladesh` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
-- **Somoy TV [Backup 3]** — `Bangladesh` — https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
-- **RTV [Backup 3]** — `Bangladesh` — https://tvsen5.aynaott.com/RtvHD/index.m3u8?e=1753741197&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=603a6374cb20aa96f523c1c04e820f85
-- **Desh TV [Backup 3]** — `Bangladesh` — https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
-- **Bangla TV [Backup 1]** — `Bangladesh` — https://cdn.ghuddi.live/Bangla_TV/Bangla_TV_BD/playlist.m3u8
-- **Ananda TV [Backup 3]** — `Bangladesh` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/index.m3u8
-- **My TV [Backup 3]** — `Bangladesh` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/index.m3u8
-- **Ruposhi Bangla [Backup 2]** — `Indian Bangla` — http://103.175.73.12:8080/live/664/664_0.m3u8
-- **Music India [Backup 2]** — `Indian Music` — https://cdn-2.pishow.tv/live/226/master.m3u8
-- **beIN Sports 1 [Backup 2]** — `Sports` — http://host.phorious.art/validation/377?deviceMac=10:27:BE:25:67:80&split=33da9c80155413830543e27c8520ba99&smart=1
-- **Sangeet Bangla [Backup 2]** — `Indian Bangla` — https://cdn-4.pishow.tv/live/1143/master.m3u8
-- **Discovery Kids [Backup 2]** — `Documentary & Wildlife` — https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
-- **HUM TV [Backup 2]** — `Indian Entertainment` — https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8
-- **RTV [Backup 4]** — `Bangladesh` — http://iptv.rtv-ooe.at/stream.m3u8
+- None
 
 ## Blocked stream imports
 
