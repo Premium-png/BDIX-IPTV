@@ -74,6 +74,39 @@ jobs:
           FOREIGN_NEWS = re.compile(r'\b(abp|aaj tak|bbc|cnbc|cnn|dd news|dw|ndtv|news18|republic|sky news|times now|trt world|tv9|wion|zee news)\b', re.I)
           BLOCKED = ('adult', 'porn', 'xxx', 'proxy', 'filex.me', 'vercel.app')
 
+          # Stream policy applies before BOTH primary and backup admission.
+          # Opaque CDN path IDs alone are not proof of encryption or masking.
+          def blocked_stream_reason(entry):
+              from urllib.parse import urlsplit, parse_qsl, unquote
+              url = entry.get('url', '').strip()
+              try:
+                  parsed = urlsplit(url)
+                  host = (parsed.hostname or '').lower().rstrip('.')
+                  if parsed.scheme.lower() not in {'http', 'https'} or not host:
+                      return 'invalid or unsupported stream URL'
+                  if parsed.username or parsed.password:
+                      return 'credential-wrapped URL'
+                  blocked_hosts = ('workers.dev', 'pages.dev', 'vercel.app', 'netlify.app',
+                                   'filex.me', 'tinyurl.com', 'bit.ly', 't.co', 'shorturl.at')
+                  if any(host == h or host.endswith('.' + h) for h in blocked_hosts):
+                      return 'proxy/masking or URL-shortener host'
+                  if any('proxy' in label for label in host.split('.')):
+                      return 'proxy hostname'
+                  path = unquote(parsed.path).lower()
+                  if re.search(r'(?:^|/)(?:proxy|redirect|decrypt|encrypt|decode|encode)(?:[./_-]|$)', path):
+                      return 'proxy/encoded wrapper path'
+                  if re.search(r'\.(?:php|asp|aspx)(?:/|$)', path):
+                      return 'dynamic stream wrapper'
+                  if any(k.lower() in {'url','uri','redirect','redirect_url','target','destination','encoded','encrypted','payload','play_token','license','license_key','drm'}
+                         for k, v in parse_qsl(parsed.query, keep_blank_values=True)):
+                      return 'wrapped destination or access/license parameter'
+                  extras = '\n'.join(entry.get('extras', []))
+                  if re.search(r'(?i)(?:license_type|license_key|widevine|playready|clearkey|drm)', extras):
+                      return 'explicit DRM/license configuration'
+              except ValueError:
+                  return 'malformed URL'
+              return ''
+
           def attrs(s):
               # Strictly parse quoted metadata; malformed source lines are not
               # allowed to become candidates.
@@ -140,17 +173,21 @@ jobs:
           # can only add a backup to an existing canonical channel or a channel
           # explicitly admitted by classify(); fuzzy matching is never used.
           additions=0; rejected=0; added_backups=[]; added_channels=[]; rejected_names=[]
+          blocked_imports=[]
           for src in parse_sources():
               url=src.get('url','').strip(); name=base(src.get('name',''))
               if not url or url in used: continue
+              reason=blocked_stream_reason(src)
+              if reason:
+                  rejected+=1; blocked_imports.append((name,url,reason)); continue
               key=norm(name); target=canonical.get(key,[])
               if target:
                   primary=target[0]; group=primary['group']; limit=4 if group=='Bangladesh' else 2
                   if len(target)-1 >= limit: continue
-                  number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=[]; target.append(e); used.add(url); additions+=1; added_backups.append((e['name'],group,url)); continue
+                  number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=deepcopy(src.get('extras',[])); target.append(e); used.add(url); additions+=1; added_backups.append((e['name'],group,url)); continue
               group=classify(name,src.get('attrs',{}).get('group-title',''))
               if not group or not src.get('attrs',{}).get('tvg-logo'): rejected+=1; rejected_names.append((name,src.get('attrs',{}).get('group-title',''),url)); continue
-              e={'attrs':deepcopy(src['attrs']), 'name':name, 'canonical':name, 'url':url, 'extras':[], 'group':group}
+              e={'attrs':deepcopy(src['attrs']), 'name':name, 'canonical':name, 'url':url, 'extras':deepcopy(src.get('extras',[])), 'group':group}
               canonical[key].append(e); used.add(url); additions+=1; added_channels.append((name,group,url))
           final=[e for bucket in canonical.values() for e in bucket]
           rank={g:i for i,g in enumerate(GROUPS)}
@@ -177,9 +214,11 @@ jobs:
           lines += [f'- **{n}** — `{g}` — {u}' for n,g,u in added_channels] or ['- None']
           lines += ['', '## New backup streams', '']
           lines += [f'- **{n}** — `{g}` — {u}' for n,g,u in added_backups] or ['- None']
+          lines += ['', '## Blocked stream imports', '']
+          lines += [f'- **{n}** — {reason} — {u}' for n,u,reason in blocked_imports] or ['- None']
           lines += ['', '## Rejected candidates', '']
           lines += [f'- **{n}** — source group `{g}` — {u}' for n,g,u in rejected_names] or ['- None']
-          lines += ['', '## Policy', '', '- Existing membership is authoritative.', '- Candidate identity uses exact normalized base name only.', '- New candidates require an approved category and logo.']
+          lines += ['', '## Policy', '', '- Existing membership is authoritative.', '- Candidate identity uses exact normalized base name only.', '- New candidates require an approved category and logo.', '- Proxy/masking hosts, wrapper URLs and explicit DRM settings are rejected before primary or backup admission.', '- Existing entries are preserved; URL checks do not establish playback availability or detect every concealed proxy.']
           REPORT.write_text('\n'.join(lines)+'\n', encoding='utf-8')
           PY
 
