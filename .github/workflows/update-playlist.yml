@@ -1,4 +1,4 @@
-name: IPTV Auto Update (reviewed)
+name: IPTV Auto Update
 
 on:
   workflow_dispatch:
