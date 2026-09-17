@@ -69,7 +69,7 @@ https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
 https://stream.ottplus.live/live/jamuna_tv_abr/index.m3u8
 #EXTINF:-1 tvg-id="JhankarTV.ca" tvg-name="Jhankar TV" tvg-chno="71" channel-id="JhankarTV.ca" tvg-logo="https://www.jagobd.com/wp-content/uploads/2019/05/Jhankartv.jpg" group-title="Bangladesh",Jhankar TV
 https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
-#EXTINF:-1 tvg-id="JonmoBhumiTV.au" tvg-name="Jonmobhumi TV" tvg-chno="72" channel-id="JonmoBhumiTV.au" tvg-logo="https://i.imgur.com/2snahLk.png" group-title="Bangladesh" tvg-language="ben" tvg-country="AU" nexus-score="100",Jonmobhumi TV
+#EXTINF:-1 tvg-id="JonmoBhumiTV.au" tvg-name="Jonmobhumi TV" tvg-chno="72" channel-id="JonmoBhumiTV.au" tvg-logo="https://i.imgur.com/2snahLk.png" tvg-language="ben" tvg-country="AU" group-title="Bangladesh",Jonmobhumi TV
 https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/playlist.m3u8
 #EXTINF:-1 channel-id="MaasrangaTV.bd" tvg-logo="https://i.imgur.com/uVZJMed.png" tvg-id="MaasrangaTV.bd" tvg-name="Maasranga TV" tvg-chno="77" group-title="Bangladesh",Maasranga TV
 http://tvsen5.aynascope.net/maasrangatv/index.m3u8
@@ -145,13 +145,13 @@ http://flowutc.com/live/MAGTF8AV71/bUiJLEJKG5/76179.ts
 https://footfytv.pro/proxy/direct?url=http://livetv.akr4m.com:8080/bdtv/restrem/3.m3u8
 #EXTINF:-1 channel-id="local.bb3c3114fb20" tvg-logo="https://i.postimg.cc/3w6F5VZ5/20240822-231514.png" tvg-id="local.bb3c3114fb20" tvg-name="Colors Bangla HD" tvg-chno="305" group-title="Indian Bangla",Colors Bangla HD
 https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/2500.m3u8?hdnts=
-#EXTINF:-1 tvg-id="DDBangla.in" tvg-name="DD Bangla" tvg-chno="126" channel-id="DDBangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s142778_ld_h15_aa.png?lock=720x540" group-title="Indian Bangla" tvg-language="ben" tvg-country="IN" nexus-score="100",DD Bangla
+#EXTINF:-1 tvg-id="DDBangla.in" tvg-name="DD Bangla" tvg-chno="126" channel-id="DDBangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s142778_ld_h15_aa.png?lock=720x540" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",DD Bangla
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index.m3u8
-#EXTINF:-1 tvg-id="DDBangla.in" tvg-name="DD Bangla [Backup 1]" tvg-chno="127" channel-id="DDBangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s142778_ld_h15_aa.png?lock=720x540" group-title="Indian Bangla" tvg-language="ben" tvg-country="IN" nexus-score="100",DD Bangla [Backup 1]
+#EXTINF:-1 tvg-id="DDBangla.in" tvg-name="DD Bangla [Backup 1]" tvg-chno="127" channel-id="DDBangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s142778_ld_h15_aa.png?lock=720x540" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",DD Bangla [Backup 1]
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
-#EXTINF:-1 tvg-id="DDTripura.in" tvg-name="DD Tripura" tvg-chno="128" channel-id="DDTripura.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD-Tripura-Logo_2000_X_1125_Transpharent.png" group-title="Indian Bangla" nexus-score="100" tvg-language="ben" tvg-country="IN",DD Tripura
+#EXTINF:-1 tvg-id="DDTripura.in" tvg-name="DD Tripura" tvg-chno="128" channel-id="DDTripura.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD-Tripura-Logo_2000_X_1125_Transpharent.png" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",DD Tripura
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/52b998e9510d41c29ad2ceca8ea3d849/index.m3u8
-#EXTINF:-1 tvg-id="DhoomMusic.in" tvg-name="Dhoom Music Bangla" tvg-chno="129" channel-id="DhoomMusic.in" tvg-logo="https://dtil.tmsimg.com/assets/s142882_ld_h15_aa.png?lock=720x540" group-title="Indian Bangla" tvg-language="ben" tvg-country="IN" nexus-score="90",Dhoom Music Bangla
+#EXTINF:-1 tvg-id="DhoomMusic.in" tvg-name="Dhoom Music Bangla" tvg-chno="129" channel-id="DhoomMusic.in" tvg-logo="https://dtil.tmsimg.com/assets/s142882_ld_h15_aa.png?lock=720x540" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",Dhoom Music Bangla
 https://mumt06.tangotv.in/qYyB8fXVDHOOMMUSIC/index.m3u8
 #EXTINF:-1 tvg-id="Enterr10Bangla.in" tvg-name="Enterr10 Bangla" tvg-chno="130" channel-id="Enterr10Bangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s143018_ld_h15_aa.png?lock=720x540" group-title="Indian Bangla",Enterr10 Bangla
 https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
@@ -167,7 +167,7 @@ https://mumt07.tangotv.in/zHjX9OFlENTERR10BANGLA/index.m3u8
 http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/425.ts
 #EXTINF:-1 tvg-id="local.285a6aa870f3" tvg-name="Jalsha Movies HD" tvg-chno="137" channel-id="local.285a6aa870f3" tvg-logo="https://i.postimg.cc/rFcCkS5m/20240822_231714.png" group-title="Indian Bangla",Jalsha Movies HD
 http://livetv.akr4m.com:8080/bdtv/restrem/27.m3u8
-#EXTINF:-1 tvg-id="KhushbooBangla.in" tvg-name="Khushboo Bangla" tvg-chno="138" channel-id="KhushbooBangla.in" tvg-logo="https://i.postimg.cc/cCWYdSgj/20240823-020619.png" group-title="Indian Bangla" tvg-language="ben" tvg-country="IN" nexus-score="100",Khushboo Bangla
+#EXTINF:-1 tvg-id="KhushbooBangla.in" tvg-name="Khushboo Bangla" tvg-chno="138" channel-id="KhushbooBangla.in" tvg-logo="https://i.postimg.cc/cCWYdSgj/20240823-020619.png" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",Khushboo Bangla
 https://mumt01.tangotv.in/O5aw8Zn3KHUSHBOOTVBANGLA/index.m3u8
 #EXTINF:-1 tvg-id="MONTVBangla.in" tvg-name="Mon Bangla" tvg-chno="139" channel-id="MONTVBangla.in" tvg-logo="https://raw.githubusercontent.com/StarFlixofficial/Personal-File/refs/heads/main/Channels%20Logo/Music/Mon%20Bangla%20.png" group-title="Indian Bangla",Mon Bangla
 http://115.187.41.216:8080/hls/montvbangla/index.m3u8
@@ -175,11 +175,11 @@ http://115.187.41.216:8080/hls/montvbangla/index.m3u8
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cf883da3-f9f5-4c70-b0ef-b3ac2e2ad1e3/index.m3u8
 #EXTINF:-1 tvg-id="local.440f314dec5a" tvg-name="R Plus Gold [Backup 1]" tvg-chno="141" channel-id="local.440f314dec5a" tvg-logo="https://i.postimg.cc/P5GdL9Q7/RPlus-Gold-logo-(2013).webp" group-title="Indian Bangla",R Plus Gold [Backup 1]
 https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="RongeenTV.in" tvg-name="Rongeen TV" tvg-chno="142" channel-id="RongeenTV.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Rongeen-Logo--without-BG_2000_X_1125.png" group-title="Indian Bangla" tvg-language="hin" tvg-country="IN" nexus-score="100",Rongeen TV
+#EXTINF:-1 tvg-id="RongeenTV.in" tvg-name="Rongeen TV" tvg-chno="142" channel-id="RongeenTV.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Rongeen-Logo--without-BG_2000_X_1125.png" tvg-language="hin" tvg-country="IN" group-title="Indian Bangla",Rongeen TV
 https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
 #EXTINF:-1 tvg-id="RupasiBangla.in" tvg-name="Ruposhi Bangla" tvg-chno="143" channel-id="RupasiBangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s143733_ld_h15_aa.png?lock=720x540" group-title="Indian Bangla",Ruposhi Bangla
 https://mumt05.tangotv.in/87NeALx2RUPASIBANGLA/index.m3u8
-#EXTINF:-1 tvg-id="RupasiBangla.in" tvg-name="Ruposhi Bangla [Backup 1]" tvg-chno="144" channel-id="RupasiBangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s143733_ld_h15_aa.png?lock=720x540" group-title="Indian Bangla" nexus-score="100" tvg-language="ben" tvg-country="IN",Ruposhi Bangla [Backup 1]
+#EXTINF:-1 tvg-id="RupasiBangla.in" tvg-name="Ruposhi Bangla [Backup 1]" tvg-chno="144" channel-id="RupasiBangla.in" tvg-logo="https://dtil.tmsimg.com/assets/s143733_ld_h15_aa.png?lock=720x540" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",Ruposhi Bangla [Backup 1]
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:rupashibangla.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SanandaTV.in" tvg-name="Sananda TV" tvg-chno="145" channel-id="SanandaTV.in" tvg-logo="https://i.postimg.cc/Kc7BJRCy/20240823-020704.png" group-title="Indian Bangla",Sananda TV
 http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8
@@ -211,7 +211,7 @@ https://stream.ottlive.co.in/ubangla/index.m3u8
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 channel-id="SanandaTV.in" tvg-logo="https://i.postimg.cc/wjWkWhzp/Zee-bangla.png" tvg-id="SanandaTV.in" tvg-name="Zee Bangla" tvg-chno="147" group-title="Indian Bangla",Zee Bangla
 http://27.124.71.27/Zee_Bangla/tracks-v1a1/mono.m3u8
-#EXTINF:-1 channel-id="ZeeBangla.in" nexus-score="100" tvg-logo="https://i.postimg.cc/wjWkWhzp/Zee-bangla.png" tvg-id="ZeeBangla.in" tvg-name="Zee Bangla [Backup 1]" tvg-chno="163" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",Zee Bangla [Backup 1]
+#EXTINF:-1 channel-id="ZeeBangla.in" tvg-logo="https://i.postimg.cc/wjWkWhzp/Zee-bangla.png" tvg-id="ZeeBangla.in" tvg-name="Zee Bangla [Backup 1]" tvg-chno="163" tvg-language="ben" tvg-country="IN" group-title="Indian Bangla",Zee Bangla [Backup 1]
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8
 #EXTINF:-1 channel-id="ZeeBangla.in" tvg-logo="https://i.postimg.cc/wjWkWhzp/Zee-bangla.png" tvg-id="ZeeBangla.in" tvg-name="Zee Bangla [Backup 2]" tvg-chno="164" group-title="Indian Bangla",Zee Bangla [Backup 2]
 http://premiumtvs.space/live/YqXTywueEV/damp2purchase/98881.ts
@@ -239,17 +239,17 @@ https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UKadak.in" tvg-name="B4U Kadak" tvg-chno="177" channel-id="B4UKadak.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/B4U-Kadak-BLACK-transparent.png" group-title="Indian Movies",B4U Kadak
 https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UKadak.in" tvg-name="B4U Kadak [Backup 1]" tvg-chno="178" channel-id="B4UKadak.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/B4U-Kadak-BLACK-transparent.png" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="89",B4U Kadak [Backup 1]
+#EXTINF:-1 tvg-id="B4UKadak.in" tvg-name="B4U Kadak [Backup 1]" tvg-chno="178" channel-id="B4UKadak.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/B4U-Kadak-BLACK-transparent.png" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",B4U Kadak [Backup 1]
 https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="B4UMovies.in" tvg-name="B4U Movies" tvg-chno="179" channel-id="B4UMovies.in" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" group-title="Indian Movies",B4U Movies
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UMovies.in" tvg-name="B4U Movies [Backup 1]" tvg-chno="180" channel-id="B4UMovies.in" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="89",B4U Movies [Backup 1]
+#EXTINF:-1 tvg-id="B4UMovies.in" tvg-name="B4U Movies [Backup 1]" tvg-chno="180" channel-id="B4UMovies.in" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",B4U Movies [Backup 1]
 https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="B4UMovies.in" tvg-name="B4U Movies [Backup 2]" tvg-chno="181" channel-id="B4UMovies.in" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" group-title="Indian Movies",B4U Movies [Backup 2]
 https://drk6xq0vhn.gpcdn.net/live/b4u_movies_abr/index.m3u8
 #EXTINF:-1 tvg-id="BhojpuriCinema.in" tvg-name="Bhojpuri Cinema" tvg-chno="182" channel-id="BhojpuriCinema.in" tvg-logo="https://dtil.tmsimg.com/assets/s142713_ld_h15_aa.png?lock=720x540" group-title="Indian Movies",Bhojpuri Cinema
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-id="BollywoodClassic.ro" tvg-name="Bollywood Classic" tvg-chno="183" channel-id="BollywoodClassic.ro" tvg-logo="https://i.imgur.com/ugPo6ca.png" group-title="Indian Movies" tvg-language="ron;hin;rus" tvg-country="RO" nexus-score="100",Bollywood Classic
+#EXTINF:-1 tvg-id="BollywoodClassic.ro" tvg-name="Bollywood Classic" tvg-chno="183" channel-id="BollywoodClassic.ro" tvg-logo="https://i.imgur.com/ugPo6ca.png" tvg-language="ron;hin;rus" tvg-country="RO" group-title="Indian Movies",Bollywood Classic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 #EXTVLCOPT:http-referrer=https://cool-tv.net/
 https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8
@@ -265,15 +265,15 @@ https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8
 https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8
 #EXTINF:-1 tvg-id="ETVCinema.in" tvg-name="ETV Cinema" tvg-chno="189" channel-id="ETVCinema.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/ETV-cinema-HD-Logo_2000_X_1125_Transpharent.png" group-title="Indian Movies",ETV Cinema
 https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8
-#EXTINF:-1 tvg-id="Goldmines.in" tvg-name="Goldmines" tvg-chno="190" channel-id="Goldmines.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Goldmines%20Logo_Transparent.png" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="89",Goldmines
+#EXTINF:-1 tvg-id="Goldmines.in" tvg-name="Goldmines" tvg-chno="190" channel-id="Goldmines.in" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Goldmines%20Logo_Transparent.png" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",Goldmines
 https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesAction.in" tvg-name="Goldmines Action" tvg-chno="191" channel-id="GoldminesAction.in" tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" group-title="Indian Movies",Goldmines Action
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESACTION/index.m3u8
-#EXTINF:-1 tvg-id="GoldminesBollywood.in" tvg-name="Goldmines Bollywood" tvg-chno="192" channel-id="GoldminesBollywood.in" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="89",Goldmines Bollywood
+#EXTINF:-1 tvg-id="GoldminesBollywood.in" tvg-name="Goldmines Bollywood" tvg-chno="192" channel-id="GoldminesBollywood.in" tvg-logo="https://i.imgur.com/6mNQ9mM.png" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",Goldmines Bollywood
 https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-id="GoldminesBollywood.in" tvg-name="Goldmines Bollywood [Backup 1]" tvg-chno="193" channel-id="GoldminesBollywood.in" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="89",Goldmines Bollywood [Backup 1]
+#EXTINF:-1 tvg-id="GoldminesBollywood.in" tvg-name="Goldmines Bollywood [Backup 1]" tvg-chno="193" channel-id="GoldminesBollywood.in" tvg-logo="https://i.imgur.com/6mNQ9mM.png" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",Goldmines Bollywood [Backup 1]
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
-#EXTINF:-1 tvg-id="GoldminesMovies.in" tvg-name="Goldmines Movies" tvg-chno="194" channel-id="GoldminesMovies.in" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/GoldminesMovies_Transparent_9b7db248-999e-4200-a459-6cc594650f3d.png" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="100",Goldmines Movies
+#EXTINF:-1 tvg-id="GoldminesMovies.in" tvg-name="Goldmines Movies" tvg-chno="194" channel-id="GoldminesMovies.in" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/GoldminesMovies_Transparent_9b7db248-999e-4200-a459-6cc594650f3d.png" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",Goldmines Movies
 https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="local.a35fc6b70b2d" tvg-name="Hindi Movie Classic 24" tvg-chno="195" channel-id="local.a35fc6b70b2d" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_af0da7926606216768d48d2189e3e12c_playmist_hindi_movie_classic_24.jpg" group-title="Indian Movies",Hindi Movie Classic 24
 https://vods2.aynaott.com/hindimovies/index.m3u8
@@ -289,7 +289,7 @@ https://mumt01.tangotv.in/O5aw8Zn3KAIRALI/index.m3u8
 https://streams.tangotv.in/WETV/ORIGIN/index.m3u8
 #EXTINF:-1 channel-id="MahaaMax.in" tvg-logo="https://objectstorage.ap-mumbai-1.oraclecloud.com/p/7Eg7LPw1gBcncVDrfwf__7yyrg13awaU6DmMk4gutavGYZgoAuAziv8e0aSEdU4G/n/bmaqqlwez184/b/GTPL_CHANNEL_LOGO/o/gtpl/MAHAA+MAX+LOGO.png" tvg-id="MahaaMax.in" tvg-name="Mahaa Max" tvg-chno="349" group-title="Indian Movies",Mahaa Max
 https://mumt03.tangotv.in/Dsly5z3HMAHAAMAX/index.m3u8
-#EXTINF:-1 tvg-id="MBCBollywood.ae" tvg-name="MBC Bollywood" tvg-chno="200" channel-id="MBCBollywood.ae" tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="Indian Movies" tvg-language="eng;hin;ara" tvg-country="AE" nexus-score="100",MBC Bollywood
+#EXTINF:-1 tvg-id="MBCBollywood.ae" tvg-name="MBC Bollywood" tvg-chno="200" channel-id="MBCBollywood.ae" tvg-logo="https://i.imgur.com/TTAGFHG.png" tvg-language="eng;hin;ara" tvg-country="AE" group-title="Indian Movies",MBC Bollywood
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
 #EXTINF:-1 tvg-id="MBCBollywood.ae" tvg-name="MBC Bollywood [Backup 1]" tvg-chno="201" channel-id="MBCBollywood.ae" tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="Indian Movies",MBC Bollywood [Backup 1]
 http://93.184.10.248/MBCBollywood/index.m3u8
@@ -353,7 +353,7 @@ https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8
 #EXTINF:-1 tvg-id="TheMovieClub.in" tvg-name="The Movie Club" tvg-chno="231" channel-id="TheMovieClub.in" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png" group-title="Indian Movies",The Movie Club
 https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
-#EXTINF:-1 tvg-id="TheMovieClub.in" tvg-name="The Movie Club [Backup 1]" tvg-chno="232" channel-id="TheMovieClub.in" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="100",The Movie Club [Backup 1]
+#EXTINF:-1 tvg-id="TheMovieClub.in" tvg-name="The Movie Club [Backup 1]" tvg-chno="232" channel-id="TheMovieClub.in" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",The Movie Club [Backup 1]
 https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf
 #EXTINF:-1 tvg-id="TollyTV.in" tvg-name="Tolly TV" tvg-chno="233" channel-id="TollyTV.in" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/aumnrs.png" group-title="Indian Movies",Tolly TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
@@ -369,7 +369,7 @@ https://stream.ottplus.live/live/zee_bollywood_abr/index.m3u8
 https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/index.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema.in" tvg-name="Zee Cinema" tvg-chno="239" channel-id="ZeeCinema.in" tvg-logo="https://i.postimg.cc/VN1c9Ztw/20240823_022636.png" group-title="Indian Movies",Zee Cinema
 https://stream.ottplus.live/live/zee_cinema_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in" tvg-name="Zee Cinema [Backup 1]" tvg-chno="240" channel-id="ZeeCinema.in" tvg-logo="https://i.postimg.cc/VN1c9Ztw/20240823_022636.png" group-title="Indian Movies" tvg-language="hin" tvg-country="IN" nexus-score="100",Zee Cinema [Backup 1]
+#EXTINF:-1 tvg-id="ZeeCinema.in" tvg-name="Zee Cinema [Backup 1]" tvg-chno="240" channel-id="ZeeCinema.in" tvg-logo="https://i.postimg.cc/VN1c9Ztw/20240823_022636.png" tvg-language="hin" tvg-country="IN" group-title="Indian Movies",Zee Cinema [Backup 1]
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema.in" tvg-name="Zee Cinema [Backup 2]" tvg-chno="241" channel-id="ZeeCinema.in" tvg-logo="https://i.postimg.cc/VN1c9Ztw/20240823_022636.png" group-title="Indian Movies",Zee Cinema [Backup 2]
 https://drk6xq0vhn.gpcdn.net/live/zee_cinema_hd_abr/index.m3u8
@@ -405,23 +405,23 @@ https://wiselp.wiseplayout.com/9XM/master.m3u8
 http://107.167.16.138/dhamaal/index.m3u8?token=test
 #EXTINF:-1 tvg-id="AaryaaTV.in" tvg-name="Aaryaa TV" tvg-chno="255" channel-id="AaryaaTV.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png" group-title="Indian Music",Aaryaa TV
 https://stream.ottlive.co.in/aryatvtamil/index.m3u8
-#EXTINF:-1 tvg-id="B4UMusic.in" tvg-name="B4U Music" tvg-chno="256" channel-id="B4UMusic.in" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Indian Music" tvg-language="hin" tvg-country="IN" nexus-score="100",B4U Music
+#EXTINF:-1 tvg-id="B4UMusic.in" tvg-name="B4U Music" tvg-chno="256" channel-id="B4UMusic.in" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" tvg-language="hin" tvg-country="IN" group-title="Indian Music",B4U Music
 https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in" tvg-name="B4U Music [Backup 1]" tvg-chno="257" channel-id="B4UMusic.in" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Indian Music",B4U Music [Backup 1]
 https://drk6xq0vhn.gpcdn.net/live/b4u_music_abr/index.m3u8
 #EXTINF:-1 tvg-id="BalleBalle.in" tvg-name="Balle Balle" tvg-chno="258" channel-id="BalleBalle.in" tvg-logo="https://i.imgur.com/oxkkWH5.png" group-title="Indian Music",Balle Balle
 https://mcncdndigital.com/balleballetv/index.m3u8
-#EXTINF:-1 tvg-id="DeewanaHD.in" tvg-name="Deewana HD" tvg-chno="259" channel-id="DeewanaHD.in" tvg-logo="https://i.imgur.com/xIYITQ9.png" group-title="Indian Music" tvg-language="hin" tvg-country="IN" nexus-score="100",Deewana HD
+#EXTINF:-1 tvg-id="DeewanaHD.in" tvg-name="Deewana HD" tvg-chno="259" channel-id="DeewanaHD.in" tvg-logo="https://i.imgur.com/xIYITQ9.png" tvg-language="hin" tvg-country="IN" group-title="Indian Music",Deewana HD
 https://live20.bozztv.com/giatvplayout7/giatv-209592/index.m3u8
 #EXTINF:-1 tvg-id="DesiChannel.in" tvg-name="Desi Channel" tvg-chno="260" channel-id="DesiChannel.in" tvg-logo="https://desichannel.in/wp-content/uploads/2025/01/desi-channel.png" group-title="Indian Music",Desi Channel
 https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
 #EXTINF:-1 tvg-id="E24.in" tvg-name="E24" tvg-chno="262" channel-id="E24.in" tvg-logo="https://i.imgur.com/vCaPNTe.png" group-title="Indian Music",E24
 https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
-#EXTINF:-1 tvg-id="E24.in" tvg-name="E24 [Backup 1]" tvg-chno="263" channel-id="E24.in" tvg-logo="https://i.imgur.com/vCaPNTe.png" group-title="Indian Music" tvg-language="hin" tvg-country="IN" nexus-score="100",E24 [Backup 1]
+#EXTINF:-1 tvg-id="E24.in" tvg-name="E24 [Backup 1]" tvg-chno="263" channel-id="E24.in" tvg-logo="https://i.imgur.com/vCaPNTe.png" tvg-language="hin" tvg-country="IN" group-title="Indian Music",E24 [Backup 1]
 https://mumt04.tangotv.in/m18aqlK4E24/index.m3u8
 #EXTINF:-1 tvg-id="EpicMusic.in" tvg-name="Epic Music" tvg-chno="264" channel-id="EpicMusic.in" tvg-logo="https://i.postimg.cc/t47SV77h/image.png" group-title="Indian Music",Epic Music
 https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
-#EXTINF:-1 tvg-id="EpicMusic.in" tvg-name="Epic Music [Backup 1]" tvg-chno="265" channel-id="EpicMusic.in" tvg-logo="https://i.postimg.cc/t47SV77h/image.png" group-title="Indian Music" tvg-language="hin" tvg-country="IN" nexus-score="100",Epic Music [Backup 1]
+#EXTINF:-1 tvg-id="EpicMusic.in" tvg-name="Epic Music [Backup 1]" tvg-chno="265" channel-id="EpicMusic.in" tvg-logo="https://i.postimg.cc/t47SV77h/image.png" tvg-language="hin" tvg-country="IN" group-title="Indian Music",Epic Music [Backup 1]
 https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
 #EXTINF:-1 tvg-id="ETVMusic.in" tvg-name="ETV Music" tvg-chno="266" channel-id="ETVMusic.in" tvg-logo="https://etvcoin.s3.ap-south-1.amazonaws.com/uploads/channellogo1787822939Music-Logo-100x100-P.png" group-title="Indian Music",ETV Music
 https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
@@ -435,7 +435,7 @@ https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/playlist.m3u8
 #EXTINF:-1 tvg-id="JooMusic.pk" tvg-name="Joo Music" tvg-chno="270" channel-id="JooMusic.pk" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3f/Joo_Music.png" group-title="Indian Music",Joo Music
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MusicIndia.in" tvg-name="Music India" tvg-chno="272" channel-id="MusicIndia.in" tvg-logo="https://dtil.tmsimg.com/assets/s143563_ld_h15_aa.png?lock=720x540" group-title="Indian Music" tvg-language="hin" tvg-country="IN" nexus-score="100",Music India
+#EXTINF:-1 tvg-id="MusicIndia.in" tvg-name="Music India" tvg-chno="272" channel-id="MusicIndia.in" tvg-logo="https://dtil.tmsimg.com/assets/s143563_ld_h15_aa.png?lock=720x540" tvg-language="hin" tvg-country="IN" group-title="Indian Music",Music India
 https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="NHBollyRaga.in" tvg-name="NH BollyRaga" tvg-chno="273" channel-id="NHBollyRaga.in" tvg-logo="https://i.ibb.co/BKB9mv1K/NH-Bolly-Raga.png" group-title="Indian Music",NH BollyRaga
 https://cc-up9j649x4thrj.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/SBUM/RunnTV/BollyRaga_IN/BollyRaga_IN.m3u8
@@ -499,7 +499,7 @@ http://202.70.146.135:8000/play/a00b/index.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorskannadahd1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ColorsMarathi.in" tvg-name="Colors Marathi" tvg-chno="307" channel-id="ColorsMarathi.in" tvg-logo="https://dtil.tmsimg.com/assets/s158237_ld_h15_aa.png?lock=720x540" group-title="Indian Entertainment",Colors Marathi
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsmarathihd.smil/playlist.m3u8
-#EXTINF:-1 channel-id="ColorsRishteyAmericas.in" nexus-score="100" tvg-logo="https://i.imgur.com/xkOunuW.png" tvg-id="ColorsRishteyAmericas.in" tvg-name="Colors Rishtey" tvg-chno="308" tvg-language="hin" tvg-country="IN" group-title="Indian Entertainment",Colors Rishtey
+#EXTINF:-1 channel-id="ColorsRishteyAmericas.in" tvg-logo="https://i.imgur.com/xkOunuW.png" tvg-id="ColorsRishteyAmericas.in" tvg-name="Colors Rishtey" tvg-chno="308" tvg-language="hin" tvg-country="IN" group-title="Indian Entertainment",Colors Rishtey
 https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ColorsTamil.in" tvg-name="Colors Tamil" tvg-chno="309" channel-id="ColorsTamil.in" tvg-logo="https://dtil.tmsimg.com/assets/s158241_ld_h15_aa.png?lock=720x540" group-title="Indian Entertainment",Colors Tamil
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
@@ -615,7 +615,7 @@ https://mumt05.tangotv.in/87NeALx2THEQ/index.m3u8
 http://cdn12.henico.net:8080/live/sadatv/index.m3u8
 #EXTINF:-1 tvg-id="SanaTV.in" tvg-name="Sana TV" tvg-chno="369" channel-id="SanaTV.in" tvg-logo="https://i.imgur.com/CR7DGBv.png" group-title="Indian Entertainment",Sana TV
 https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8
-#EXTINF:-1 channel-id="ShemarooJosh.in" nexus-score="100" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ShemarooJosh_Transparent_3506d79a-bad8-4c99-905d-9b917076ad43.png" tvg-id="ShemarooJosh.in" tvg-name="Shemaroo Josh" tvg-chno="214" tvg-language="hin" tvg-country="IN" group-title="Indian Entertainment",Shemaroo Josh
+#EXTINF:-1 channel-id="ShemarooJosh.in" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/ShemarooJosh_Transparent_3506d79a-bad8-4c99-905d-9b917076ad43.png" tvg-id="ShemarooJosh.in" tvg-name="Shemaroo Josh" tvg-chno="214" tvg-language="hin" tvg-country="IN" group-title="Indian Entertainment",Shemaroo Josh
 https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SiriKannada.in" tvg-name="Siri Kannada" tvg-chno="370" channel-id="SiriKannada.in" tvg-logo="https://dtil.tmsimg.com/assets/s143790_ld_h9_aa.png?lock=720x540" group-title="Indian Entertainment",Siri Kannada
 https://mumt03.tangotv.in/Dsly5z3HSIRIKANNADA/index.m3u8
@@ -677,7 +677,7 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8
 https://stream.ottplus.live/live/zee_tv_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="ZeeTV.in" tvg-name="Zee TV [Backup 1]" tvg-chno="400" channel-id="ZeeTV.in" tvg-logo="https://i.postimg.cc/x8BwX6QW/20240823_022929.png" group-title="Indian Entertainment",Zee TV [Backup 1]
 https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in" tvg-name="Zee TV [Backup 2]" tvg-chno="401" channel-id="ZeeTV.in" tvg-logo="https://i.postimg.cc/x8BwX6QW/20240823_022929.png" group-title="Indian Entertainment" tvg-language="hin" tvg-country="IN" nexus-score="79",Zee TV [Backup 2]
+#EXTINF:-1 tvg-id="ZeeTV.in" tvg-name="Zee TV [Backup 2]" tvg-chno="401" channel-id="ZeeTV.in" tvg-logo="https://i.postimg.cc/x8BwX6QW/20240823_022929.png" tvg-language="hin" tvg-country="IN" group-title="Indian Entertainment",Zee TV [Backup 2]
 http://41.205.93.154/ZEE-TV/index.m3u8
 #EXTINF:-1 tvg-id="local.541330179858" tvg-name="Zee TV HD [DE]" tvg-chno="402" channel-id="local.541330179858" tvg-logo="https://i.postimg.cc/x8BwX6QW/20240823_022929.png" group-title="Indian Entertainment",Zee TV HD [DE]
 https://d47ddb99.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1kZV9aZWVUVkhEVUtHZXJtYW55X0hMUw/playlist.m3u8
@@ -813,7 +813,7 @@ https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 https://streamcdne2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b1064000.m3u8
 #EXTINF:-1 tvg-id="PlayTV.gr" tvg-name="MAD" tvg-chno="503" channel-id="PlayTV.gr" tvg-logo="https://i.imgur.com/JWFOYuD.png" group-title="International Music",MAD
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV.in" tvg-name="MTV" tvg-chno="504" channel-id="MTV.in" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_79fbc39a1e2b6627305b440da7c524d7_playmist_mtv_400x400.jpg" group-title="International Music" tvg-language="hin" tvg-country="IN" nexus-score="100",MTV
+#EXTINF:-1 tvg-id="MTV.in" tvg-name="MTV" tvg-chno="504" channel-id="MTV.in" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_79fbc39a1e2b6627305b440da7c524d7_playmist_mtv_400x400.jpg" tvg-language="hin" tvg-country="IN" group-title="International Music",MTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Now70s.uk" tvg-name="NOW 70s" tvg-chno="505" channel-id="Now70s.uk" tvg-logo="https://i.imgur.com/qiCCX5X.png" group-title="International Music",NOW 70s
@@ -996,7 +996,7 @@ https://d1cgf0ptrv4t22.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 http://202.70.146.135:8000/play/a05j/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.in" tvg-name="National Geographic" tvg-chno="598" channel-id="NationalGeographic.in" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_25b786047244481532eb505dfba85580_playmist_nat_geo_tv_400x400.jpg" group-title="Documentary & Wildlife",National Geographic
 http://202.70.146.135:8000/play/a05o/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.in" tvg-name="National Geographic [Backup 1]" tvg-chno="599" channel-id="NationalGeographic.in" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_25b786047244481532eb505dfba85580_playmist_nat_geo_tv_400x400.jpg" group-title="Documentary & Wildlife" tvg-language="eng;hin;kan;mal;tel;tam;ben;mar" tvg-country="IN" nexus-score="100",National Geographic [Backup 1]
+#EXTINF:-1 tvg-id="NationalGeographic.in" tvg-name="National Geographic [Backup 1]" tvg-chno="599" channel-id="NationalGeographic.in" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_25b786047244481532eb505dfba85580_playmist_nat_geo_tv_400x400.jpg" tvg-language="eng;hin;kan;mal;tel;tam;ben;mar" tvg-country="IN" group-title="Documentary & Wildlife",National Geographic [Backup 1]
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:28:41&stream=373017&extension=ts&play_token=zCaGy5dtla
 #EXTINF:-1 tvg-id="OutdoorChannel.us" tvg-name="Outdoor Channel" tvg-chno="601" channel-id="OutdoorChannel.us" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Documentary & Wildlife",Outdoor Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
@@ -1204,7 +1204,7 @@ https://live.al-zahratv.com/live/playlist.m3u8
 https://aryqtvm.aryzap.com/v1/0183ea2a0eec0b8ed5941a38bc76/0183ea2a4e470b8ed5aa4d793457/ARYQTVH264_1080p.m3u8
 #EXTINF:-1 tvg-id="AzanTV.ca" tvg-name="Azan TV" tvg-chno="718" channel-id="AzanTV.ca" tvg-logo="https://i.imgur.com/JlqS6I4.jpeg" group-title="Religious",Azan TV
 https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
-#EXTINF:-1 tvg-id="DeenTV.uk" tvg-name="Deen TV (576p)" tvg-chno="723" channel-id="DeenTV.uk" tvg-logo="https://i.imgur.com/Zp62Nbd.png" group-title="Religious" tvg-language="ben" tvg-country="UK" nexus-score="100",Deen TV (576p)
+#EXTINF:-1 tvg-id="DeenTV.uk" tvg-name="Deen TV (576p)" tvg-chno="723" channel-id="DeenTV.uk" tvg-logo="https://i.imgur.com/Zp62Nbd.png" tvg-language="ben" tvg-country="UK" group-title="Religious",Deen TV (576p)
 https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 #EXTINF:-1 tvg-id="local.e4e7586ffaaf" tvg-name="Dua Channel" tvg-chno="726" channel-id="local.e4e7586ffaaf" tvg-logo="https://raw.githubusercontent.com/zuhairabs/shiachannel/main/livetv/img/channels/dua-channel.jpg" group-title="Religious",Dua Channel
 https://newyork.zeuscdn724.com/H9/index.m3u8
@@ -1320,7 +1320,7 @@ https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
 https://starsportshindiii.pages.dev/index.m3u8
 #EXTINF:-1 tvg-id="StarSports.cn" tvg-name="Star Sports 2" tvg-chno="809" channel-id="StarSports.cn" tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png" group-title="Sports",Star Sports 2
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in" tvg-name="Star Sports 2 Hindi (720p)" tvg-chno="810" channel-id="StarSports2Hindi.in" tvg-logo="https://dtil.tmsimg.com/assets/s143807_ld_h15_ac.png?lock=720x540" group-title="Sports" tvg-language="hin" tvg-country="IN" nexus-score="100",Star Sports 2 Hindi (720p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in" tvg-name="Star Sports 2 Hindi (720p)" tvg-chno="810" channel-id="StarSports2Hindi.in" tvg-logo="https://dtil.tmsimg.com/assets/s143807_ld_h15_ac.png?lock=720x540" tvg-language="hin" tvg-country="IN" group-title="Sports",Star Sports 2 Hindi (720p)
 https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
 #EXTINF:-1 tvg-id="TSports.bd" tvg-name="T Sports" tvg-chno="811" channel-id="TSports.bd" tvg-logo="https://i.imgur.com/2JzlorD.png" group-title="Sports",T Sports
 https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
@@ -1340,7 +1340,7 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="AsianTV.bd" tvg-name="Asian TV [Backup 1]" tvg-chno="5" channel-id="AsianTV.bd" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="Bangladesh Backup",Asian TV [Backup 1]
 https://stream.ottplus.live/live/asian_tv_abr/index.m3u8
-#EXTINF:-1 tvg-id="ATNBangla.bd" tvg-name="ATN Bangla [Backup 1]" tvg-chno="7" channel-id="ATNBangla.bd" tvg-logo="https://i.imgur.com/K1HmMRz.png" group-title="Bangladesh Backup" tvg-language="ben" tvg-country="BD" nexus-score="100",ATN Bangla [Backup 1]
+#EXTINF:-1 tvg-id="ATNBangla.bd" tvg-name="ATN Bangla [Backup 1]" tvg-chno="7" channel-id="ATNBangla.bd" tvg-logo="https://i.imgur.com/K1HmMRz.png" tvg-language="ben" tvg-country="BD" group-title="Bangladesh Backup",ATN Bangla [Backup 1]
 http://tvsen5.aynascope.net/atnbangla/index.m3u8
 #EXTINF:-1 tvg-id="ATNBangla.bd" tvg-name="ATN Bangla [Backup 2]" tvg-chno="8" channel-id="ATNBangla.bd" tvg-logo="https://i.imgur.com/K1HmMRz.png" group-title="Bangladesh Backup",ATN Bangla [Backup 2]
 https://tvsen5.aynaott.com/P3y2URgG7LDe/index.m3u8
@@ -1370,9 +1370,9 @@ https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8
 https://stream.ottplus.live/live/desh_tv_abr/index.m3u8
 #EXTINF:-1 tvg-id="DeshTV.bd" tvg-name="Desh TV [Backup 2]" tvg-chno="41" channel-id="DeshTV.bd" tvg-logo="https://i.imgur.com/ItrZok1.png" group-title="Bangladesh Backup",Desh TV [Backup 2]
 http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/index.m3u8
-#EXTINF:-1 tvg-id="EkattorTV.bd" tvg-name="Ekattor TV" tvg-chno="46" channel-id="EkattorTV.bd" tvg-logo="https://i.imgur.com/zoLwwUK.png" group-title="Bangladesh Backup" tvg-language="Bangla" tvg-country="Bangladesh",Ekattor TV
+#EXTINF:-1 tvg-id="EkattorTV.bd" tvg-name="Ekattor TV" tvg-chno="46" channel-id="EkattorTV.bd" tvg-logo="https://i.imgur.com/zoLwwUK.png" tvg-language="Bangla" tvg-country="Bangladesh" group-title="Bangladesh Backup",Ekattor TV
 https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
-#EXTINF:-1 tvg-id="EkattorTV.bd" tvg-name="Ekattor TV [Backup 1]" tvg-chno="47" channel-id="EkattorTV.bd" tvg-logo="https://i.imgur.com/zoLwwUK.png" group-title="Bangladesh Backup" tvg-language="Bangla" tvg-country="Bangladesh",Ekattor TV [Backup 1]
+#EXTINF:-1 tvg-id="EkattorTV.bd" tvg-name="Ekattor TV [Backup 1]" tvg-chno="47" channel-id="EkattorTV.bd" tvg-logo="https://i.imgur.com/zoLwwUK.png" tvg-language="Bangla" tvg-country="Bangladesh" group-title="Bangladesh Backup",Ekattor TV [Backup 1]
 http://premiumtvs.space/live/YqXTywueEV/damp2purchase/428.ts
 #EXTINF:-1 tvg-id="EkhonTV.bd" tvg-name="Ekhon TV" tvg-chno="49" channel-id="EkhonTV.bd" tvg-logo="https://i.imgur.com/tRrDh6z.png" group-title="Bangladesh Backup",Ekhon TV
 https://stream.ottplus.live/live/ekhon_tv_abr/index.m3u8
