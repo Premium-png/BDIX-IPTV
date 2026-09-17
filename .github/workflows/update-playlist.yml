@@ -182,9 +182,9 @@ jobs:
                   rejected+=1; blocked_imports.append((name,url,reason)); continue
               key=norm(name); target=canonical.get(key,[])
               if target:
-                  primary=target[0]; group=primary['group']; limit=4 if group=='Bangladesh' else 2
+                  primary=target[0]; group=primary['group']; limit=4 if group in {'Bangladesh','Bangladesh Backup'} else 2
                   if len(target)-1 >= limit: continue
-                  number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=deepcopy(src.get('extras',[])); target.append(e); used.add(url); additions+=1; added_backups.append((e['name'],group,url)); continue
+                  number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=deepcopy(src.get('extras',[])); e['group']='Bangladesh Backup' if group == 'Bangladesh' else group; target.append(e); used.add(url); additions+=1; added_backups.append((e['name'],e['group'],url)); continue
               group=classify(name,src.get('attrs',{}).get('group-title',''))
               if not group or not src.get('attrs',{}).get('tvg-logo'): rejected+=1; rejected_names.append((name,src.get('attrs',{}).get('group-title',''),url)); continue
               e={'attrs':deepcopy(src['attrs']), 'name':name, 'canonical':name, 'url':url, 'extras':deepcopy(src.get('extras',[])), 'group':group}
