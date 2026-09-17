@@ -152,13 +152,14 @@ jobs:
                       print(f'source skipped: {source}: {e}')
               return allc
           def serialize(e, number):
-              a=deepcopy(e['attrs']); a['tvg-name']=e['name']; a['group-title']=e['group']
+              a=deepcopy(e['attrs']); a.pop('nexus-score', None); a['tvg-name']=e['name']; a['group-title']=e['group']
               a['tvg-chno']=str(number)
               if e.get('logo'): a['tvg-logo']=e['logo']
               a.setdefault('tvg-id', 'local.'+re.sub(r'[^a-z0-9]+','-',norm(e['name'])).strip('-'))
-              order=['tvg-id','tvg-name','tvg-logo','tvg-chno','group-title']
-              rest=[k for k in a if k not in order]
-              tail=' '.join(f'{k}="{a[k]}"' for k in order+rest if a.get(k,'')!='')
+              order=['tvg-id','tvg-name','tvg-logo','tvg-chno','channel-id','tvg-language','tvg-country']
+              rest=[k for k in a if k not in order and k != 'group-title']
+              ordered=order+rest+['group-title']
+              tail=' '.join(f'{k}="{a[k]}"' for k in ordered if a.get(k,'')!='')
               return f'#EXTINF:-1 {tail},{e["name"]}'
 
           current_header=next((x for x in MASTER.read_text(encoding='utf-8-sig').splitlines() if x.startswith('#EXTM3U')), '#EXTM3U')
@@ -167,7 +168,7 @@ jobs:
           for e in existing:
               if not e.get('url') or e['url'] in used:
                   duplicates += 1; continue
-              used.add(e['url']); e['canonical']=base(e['name']); e['group']=classify(e['canonical'],e['attrs'].get('group-title','')) or e['attrs'].get('group-title','Bangladesh')
+              used.add(e['url']); e['canonical']=base(e['name']); supplied_group=e['attrs'].get('group-title',''); e['group']=supplied_group if supplied_group == 'Bangladesh Backup' else (classify(e['canonical'],supplied_group) or supplied_group or 'Bangladesh')
               canonical[norm(e['canonical'])].append(e)
           # Existing entries are authoritative for membership. New source entries
           # can only add a backup to an existing canonical channel or a channel
