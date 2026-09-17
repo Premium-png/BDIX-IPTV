@@ -107,6 +107,19 @@ jobs:
                   return 'malformed URL'
               return ''
 
+          def stream_is_live(url):
+              # Lightweight availability check before admitting any new primary or backup.
+              # A successful HTTP response with non-empty content is required; this does
+              # not guarantee uninterrupted playback, but filters dead/empty URLs.
+              try:
+                  req=urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0','Range':'bytes=0-1023'})
+                  with urllib.request.urlopen(req, timeout=6) as r:
+                      if getattr(r, 'status', 200) >= 400:
+                          return False
+                      return bool(r.read(1024))
+              except Exception:
+                  return False
+
           def attrs(s):
               # Strictly parse quoted metadata; malformed source lines are not
               # allowed to become candidates.
@@ -174,7 +187,7 @@ jobs:
           # can only add a backup to an existing canonical channel or a channel
           # explicitly admitted by classify(); fuzzy matching is never used.
           additions=0; rejected=0; added_backups=[]; added_channels=[]; rejected_names=[]
-          blocked_imports=[]
+          blocked_imports=[]; dead_imports=[]
           for src in parse_sources():
               url=src.get('url','').strip(); name=base(src.get('name',''))
               if not url or url in used: continue
@@ -182,12 +195,18 @@ jobs:
               if reason:
                   rejected+=1; blocked_imports.append((name,url,reason)); continue
               key=norm(name); target=canonical.get(key,[])
+              # New entries must pass the dead-stream check before admission.
+              if not stream_is_live(url):
+                  rejected+=1; dead_imports.append((name,url,'dead or empty stream')); continue
               if target:
                   primary=target[0]; group=primary['group']; limit=4 if group in {'Bangladesh','Bangladesh Backup'} else 2
                   if len(target)-1 >= limit: continue
                   number=len(target); e=deepcopy(primary); e['name']=f'{primary["canonical"]} [Backup {number}]'; e['url']=url; e['extras']=deepcopy(src.get('extras',[])); e['group']='Bangladesh Backup' if group == 'Bangladesh' else group; target.append(e); used.add(url); additions+=1; added_backups.append((e['name'],e['group'],url)); continue
               group=classify(name,src.get('attrs',{}).get('group-title',''))
               if not group or not src.get('attrs',{}).get('tvg-logo'): rejected+=1; rejected_names.append((name,src.get('attrs',{}).get('group-title',''),url)); continue
+              # Never add a new Bangladeshi primary to the main Bangladesh group.
+              # New Bangladeshi channels belong in the backup/review category.
+              if group == 'Bangladesh': group='Bangladesh Backup'
               e={'attrs':deepcopy(src['attrs']), 'name':name, 'canonical':name, 'url':url, 'extras':deepcopy(src.get('extras',[])), 'group':group}
               canonical[key].append(e); used.add(url); additions+=1; added_channels.append((name,group,url))
           final=[e for bucket in canonical.values() for e in bucket]
@@ -217,6 +236,8 @@ jobs:
           lines += [f'- **{n}** — `{g}` — {u}' for n,g,u in added_backups] or ['- None']
           lines += ['', '## Blocked stream imports', '']
           lines += [f'- **{n}** — {reason} — {u}' for n,u,reason in blocked_imports] or ['- None']
+          lines += ['', '## Dead or empty stream imports', '']
+          lines += [f'- **{n}** — {reason} — {u}' for n,u,reason in dead_imports] or ['- None']
           lines += ['', '## Rejected candidates', '']
           lines += [f'- **{n}** — source group `{g}` — {u}' for n,g,u in rejected_names] or ['- None']
           lines += ['', '## Policy', '', '- Existing membership is authoritative.', '- Candidate identity uses exact normalized base name only.', '- New candidates require an approved category and logo.', '- Proxy/masking hosts, wrapper URLs and explicit DRM settings are rejected before primary or backup admission.', '- Existing entries are preserved; URL checks do not establish playback availability or detect every concealed proxy.']
