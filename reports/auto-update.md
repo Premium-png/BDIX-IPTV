@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-09-19T07:34:14.048585+00:00**
+Generated: **2026-09-19T08:38:00.928658+00:00**
 
 ## Summary
 
 - Final playlist entries: **760**
 - New primary channels: **0**
-- New backup streams: **3**
+- New backup streams: **0**
 - Rejected new candidates: **1167**
 - Duplicate URLs removed: **0**
 
@@ -30,9 +30,7 @@ Generated: **2026-09-19T07:34:14.048585+00:00**
 
 ## New backup streams
 
-- **Jalsha Movies HD [Backup 1]** — `Indian Bangla` — https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8
-- **Al Quran Al Kareem TV [Backup 1]** — `Religious` — https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
-- **MBC Bollywood [Backup 2]** — `Indian Movies` — https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8
+- None
 
 ## Blocked stream imports
 
@@ -801,12 +799,10 @@ Generated: **2026-09-19T07:34:14.048585+00:00**
 - **Alma TV** — dead or empty stream — https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
 - **Carina Tv** — dead or empty stream — https://samson.streamerr.co:8081/carinatv/index.m3u8
 - **Castrovillari Tv** — dead or empty stream — http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-- **Giovanni Paolo Tv** — dead or empty stream — https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
 - **Gold Tv** — dead or empty stream — https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 - **GO-TV Channel** — dead or empty stream — https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
 - **GS Channel** — dead or empty stream — https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8
 - **Italia 7** — dead or empty stream — https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
-- **LaC Tv Calabria** — dead or empty stream — https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8
 - **Lab Tv** — dead or empty stream — https://customer-yzibk50951uq418a.cloudflarestream.com/a58893dee4b9922a75e41b4ec4243f84/manifest/video.m3u8
 - **Lazio Tv** — dead or empty stream — https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8
 - **Motori Tv** — dead or empty stream — https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
@@ -983,6 +979,7 @@ Generated: **2026-09-19T07:34:14.048585+00:00**
 - **Deluxe 139** — source group `Italy` — https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8
 - **Di.Tv 80** — source group `Italy` — https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
 - **Giornale Radio Tv** — source group `Italy` — https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
+- **Giovanni Paolo Tv** — source group `Italy` — https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
 - **Globus Television** — source group `Italy` — https://cdn.cubws.com/live/globus.m3u8
 - **Icaro Tv Rimini** — source group `Italy` — https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
 - **il61** — source group `Italy` — https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
@@ -992,6 +989,7 @@ Generated: **2026-09-19T07:34:14.048585+00:00**
 - **La Tenda Tv** — source group `Italy` — https://2-fss-1.streamhoster.com/pl_148/206202-2980948-1/playlist.m3u8
 - **La tr3 Marsala** — source group `Italy` — https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
 - **LaC News 24** — source group `Italy` — https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
+- **LaC Tv Calabria** — source group `Italy` — https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8
 - **Le Cronache Lucane Tv** — source group `Italy` — http://stucazz.com:8888/hls/cronache.m3u8
 - **Lira Tv** — source group `Italy` — https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8
 - **Lombardia Tv** — source group `Italy` — https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
