@@ -1334,6 +1334,66 @@ https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="local.d163ab580e17" tvg-name="Xtream Sports" tvg-logo="https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927" tvg-chno="703" channel-id="local.d163ab580e17" group-title="Sports",Xtream Sports
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+
+# ===== APPROVED ADDITIONS FROM FAST-IPTV (2026-09-19) =====
+#EXTINF:-1 tvg-id="local.bangla-tv" tvg-name="Bangla Tv [Backup 1]" tvg-logo="https://i.postimg.cc/kXrYt6K3/20240822-230901.png" group-title="Bangladesh Backup",Bangla Tv [Backup 1]
+https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/index.m3u8
+#EXTINF:-1 tvg-id="local.a9570e029843" tvg-name="Channel 1 [Backup 1]" tvg-logo="https://i.postimg.cc/Zqgx8hm1/20260430-184013.png" group-title="Bangladesh Backup",Channel 1 [Backup 1]
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="local.channel-s" tvg-name="Channel S [Backup 1]" tvg-logo="https://i.postimg.cc/L6MvsdFm/20240822-231309.png" group-title="Bangladesh Backup",Channel S [Backup 1]
+https://app.ncare.live/live-orgin/channels.stream/live-orgin/channels.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="local.duronto-tv" tvg-name="Duronto TV [Backup 1]" tvg-logo="https://i.postimg.cc/0QRKCsfQ/20240823_020937.png" group-title="Bangladesh Backup",Duronto TV [Backup 1]
+https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
+#EXTINF:-1 tvg-id="local.g-tv" tvg-name="G TV [Backup 1]" tvg-logo="https://i.postimg.cc/TYmSkqf3/20240822-230513.png" group-title="Bangladesh Backup",G TV [Backup 1]
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="GlobalTV.bd" tvg-name="Global TV [Backup 1]" tvg-logo="https://i.postimg.cc/Xq98gLdM/20240822_231218.png" group-title="Bangladesh Backup",Global TV [Backup 1]
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/index.m3u8
+#EXTINF:-1 tvg-id="GreenTV.bd" tvg-name="Green TV [Backup 1]" tvg-logo="https://i.postimg.cc/ry4QcVbh/20240822-231240.png" group-title="Bangladesh Backup",Green TV [Backup 1]
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="local.ja-tv" tvg-name="JA TV [Backup 1]" tvg-logo="https://i.postimg.cc/NGkpvww2/jatv.png" group-title="Bangladesh Backup",JA TV [Backup 1]
+https://dish.porosh.com.bd/hls/jtvnews.m3u8
+#EXTINF:-1 tvg-id="MohonaTV.bd" tvg-name="Mohona Tv [Backup 1]" tvg-logo="https://i.postimg.cc/PxxzBhDM/20240822-230101.png" group-title="Bangladesh Backup",Mohona Tv [Backup 1]
+https://tvsen6.aynaott.com/AkyX5dunzju4cpo26dr7/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="MyTV.bd" tvg-name="My Tv [Backup 1]" tvg-logo="https://i.postimg.cc/wB9kQDTZ/20240822-225812.png" group-title="Bangladesh Backup",My Tv [Backup 1]
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/index.m3u8
+#EXTINF:-1 tvg-id="local.nagorik" tvg-name="Nagorik [Backup 1]" tvg-logo="https://i.postimg.cc/Z54fVGww/20240822_230947.png" group-title="Bangladesh Backup",Nagorik [Backup 1]
+https://box.bbaria.net/Nagorik_TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="local.rajdhani-alt" tvg-name="Rajdhani (ALT) [Backup 1]" tvg-logo="https://i.postimg.cc/0QRnM89n/20240825-071012.png" group-title="Bangladesh Backup",Rajdhani (ALT) [Backup 1]
+https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8
+#EXTINF:-1 tvg-id="local.star-news" tvg-name="Star News [Backup 1]" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/45/Star_News_Bangladesh.png" group-title="Bangladesh Backup",Star News [Backup 1]
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="local.makkah-live" tvg-name="Makkah Live" tvg-logo="https://www.jagobd.com/wp-content/uploads/2020/05/MakkahLive.jpg" group-title="Religious",Makkah Live
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkah.stream/index.m3u8
+#EXTINF:-1 tvg-id="MedinaLive.bd" tvg-name="Medina Live [Backup 1]" tvg-logo="https://www.jagobd.com/wp-content/uploads/2020/05/Medina-Live.jpg" group-title="Religious",Medina Live [Backup 1]
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/madina.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="local.doraemon-tv" tvg-name="Doraemon TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" group-title="Kids",Doraemon TV
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="MusicIndia.in" tvg-name="Music India [Backup 1]" tvg-logo="https://i.postimg.cc/XNHzD5Zg/s143563-ld-h15-aa.png" group-title="Indian Music",Music India [Backup 1]
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Musicindia2/default/main.mpd
+#EXTINF:-1 tvg-id="local.a-sports-hd" tvg-name="A Sports HD" tvg-logo="https://i.postimg.cc/W1z5BGPZ/20240823_024712.png" group-title="Sports",A Sports HD
+https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="local.euro-sports-hd" tvg-name="Euro Sports HD" tvg-logo="https://i.postimg.cc/pXx765TQ/20240823_024350.png" group-title="Sports",Euro Sports HD
+https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="local.laliga-hd" tvg-name="Laliga HD" tvg-logo="https://i.postimg.cc/v8JPQjFK/laliga.png" group-title="Sports",Laliga HD
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
+#EXTINF:-1 tvg-id="local.ptv" tvg-name="PTV" tvg-logo="https://i.postimg.cc/rFKBNjwP/Ptvsportslogo2023.webp" group-title="Sports",PTV
+https://flussonic.defineatoz.com/PTV/index.m3u8
+#EXTINF:-1 tvg-id="local.sony-ten-1" tvg-name="Sony Ten 1" tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="Sports",Sony Ten 1
+https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
+#EXTINF:-1 tvg-id="local.14595ff956ba" tvg-name="Sony Ten 2 [Backup 1]" tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="Sports",Sony Ten 2 [Backup 1]
+https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8
+#EXTINF:-1 tvg-id="local.9b7bf8b44a1d" tvg-name="Sony Ten 5 [Backup 1]" tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="Sports",Sony Ten 5 [Backup 1]
+https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
+#EXTINF:-1 tvg-id="local.star-sports-1" tvg-name="Star Sports 1" tvg-logo="https://i.postimg.cc/DzDHjCJm/20240823_024249.png" group-title="Sports",Star Sports 1
+https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="local.star-sports-sl-1" tvg-name="Star Sports SL 1" tvg-logo="https://i.postimg.cc/ZnzgZCLS/20240823_024321.png" group-title="Sports",Star Sports SL 1
+https://flussonic.defineatoz.com/starsportsselect1/tracks-v1/mono.m3u8
+#EXTINF:-1 tvg-id="local.star-sports-sl-2" tvg-name="Star Sports SL 2" tvg-logo="https://i.postimg.cc/rmczbb8g/20240825_060019.png" group-title="Sports",Star Sports SL 2
+https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="local.willow-sports" tvg-name="Willow Sports" tvg-logo="https://i.postimg.cc/HntSg3xw/20240823_024624.png" group-title="Sports",Willow Sports
+https://tvsen5.aynaott.com/willowhd/index.m3u8
+#EXTINF:-1 tvg-id="local.national-geographic-hd" tvg-name="National Geographic HD" tvg-logo="https://i.postimg.cc/VN6PHrKZ/20240823_023950.png" group-title="Documentary & Wildlife",National Geographic HD
+https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8
 #EXTINF:-1 tvg-id="AnandaTV.bd" tvg-name="Ananda TV" tvg-logo="https://i.imgur.com/jkbo7Qe.png" tvg-chno="704" channel-id="AnandaTV.bd" group-title="Bangladesh Backup",Ananda TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AnandaTV.bd" tvg-name="Ananda TV [Backup 3]" tvg-logo="https://i.imgur.com/jkbo7Qe.png" tvg-chno="705" channel-id="AnandaTV.bd" group-title="Bangladesh Backup",Ananda TV [Backup 3]
