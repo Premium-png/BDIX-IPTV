@@ -244,6 +244,14 @@ jobs:
           REPORT.write_text('\n'.join(lines)+'\n', encoding='utf-8')
           PY
 
+      # Always enforce local logo priority after building, before committing.
+      # sync_logos.py changes only tvg-logo attributes; other playlist data stays intact.
+      - name: Apply repository-first logos with external fallback
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/sync_logos.py
+
       - name: Commit only when explicitly enabled
         if: env.AUTO_COMMIT == 'true'
         shell: bash
@@ -253,4 +261,3 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add 'IPTV Playlist.m3u' reports/auto-update.md
           git diff --cached --quiet || (git commit -m 'bot: auto-update IPTV playlist' && git push)
-
