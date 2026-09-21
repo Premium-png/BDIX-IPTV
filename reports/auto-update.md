@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-09-20T07:57:36.469714+00:00**
+Generated: **2026-09-21T08:11:44.928689+00:00**
 
 ## Summary
 
-- Final playlist entries: **763**
+- Final playlist entries: **764**
 - New primary channels: **0**
-- New backup streams: **3**
-- Rejected new candidates: **1164**
+- New backup streams: **1**
+- Rejected new candidates: **1163**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -21,7 +21,7 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **International Music**: 53
 - **Documentary & Wildlife**: 84
 - **Kids**: 74
-- **Religious**: 34
+- **Religious**: 35
 - **Sports**: 50
 
 ## New primary channels
@@ -30,9 +30,7 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 
 ## New backup streams
 
-- **G TV [Backup 1]** — `Bangladesh Backup` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
-- **Star News [Backup 1]** — `Bangladesh Backup` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8
-- **Channel S [Backup 1]** — `Bangladesh Backup` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/index.m3u8
+- **Makkah Live [Backup 1]** — `Religious` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkah.stream/index.m3u8
 
 ## Blocked stream imports
 
@@ -704,7 +702,6 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **Televisa Telenovelas** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/televisa-telenovelas-1/index.m3u8
 - **SportOutdoor.tv** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/sportoutdoortv-1/index.m3u8
 - **CGtv** — proxy/masking or URL-shortener host — https://iptvlive.ahmed-bd-org.workers.dev/cgtv-1/index.m3u8
-- **Live Cricket** — proxy/masking or URL-shortener host — https://iptvlive-beta.vercel.app/asports/index.m3u8
 - **Jamuna TV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/jamuna-tv/index.m3u8
 - **DBC News HD** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/dbc-news/index.m3u8
 - **NTV** — proxy/masking or URL-shortener host — https://iptv-proxy.ahmed-bd-org.workers.dev/ntv/index.m3u8
@@ -739,12 +736,12 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 ## Dead or empty stream imports
 
 - **Desh TV** — dead or empty stream — https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
+- **Sananda** — dead or empty stream — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/sanandatv.stream/tracks-v1a1/mono.m3u8
 - **Mohona TV HD** — dead or empty stream — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
 - **BTV** — dead or empty stream — https://tvsen6.aynaott.com/opREbXLqJ2HFYPCXTJBa/index.m3u8
 - **Bangla 1** — dead or empty stream — https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8
 - **EP TV** — dead or empty stream — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8
 - **Asian** — dead or empty stream — https://mtlivestream.com/hls/asian/ytlive/index.m3u8
-- **Makkah Live** — dead or empty stream — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkah.stream/index.m3u8
 - **Nikki HD** — dead or empty stream — https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
 - **Zee Bangla HD** — dead or empty stream — http://103.159.180.34:5001/live/625.m3u8
 - **Akash Bangla** — dead or empty stream — https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/playlist.m3u8
@@ -788,6 +785,7 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **Channel Win** — dead or empty stream — https://cdn-4.pishow.tv/live/229/master.m3u8
 - **Geo ENT** — dead or empty stream — https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
 - **Discovery Kids** — dead or empty stream — https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
+- **Беларусь 5 Интернет** — dead or empty stream — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 - **ISTV** — dead or empty stream — https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 - **Deportes13 Ⓖ** — dead or empty stream — https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/13d/13d.smil/playlist.m3u8
 - **CCTV-4 中文国际（美） Ⓢ** — dead or empty stream — https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
@@ -800,7 +798,6 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **Gold Tv** — dead or empty stream — https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 - **GO-TV Channel** — dead or empty stream — https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
 - **GS Channel** — dead or empty stream — https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8
-- **il61** — dead or empty stream — https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 - **Italia 7** — dead or empty stream — https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
 - **Lazio Tv** — dead or empty stream — https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8
 - **Motori Tv** — dead or empty stream — https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
@@ -817,6 +814,8 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **Tele Mia Extra** — dead or empty stream — https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8
 - **Tele Pavia** — dead or empty stream — http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8
 - **Chamber TV** — dead or empty stream — https://media02.webtvlive.eu/chd-edge/_definst_/smil:chamber_tv_hd.smil/playlist.m3u8
+- **Sor TV** — dead or empty stream — http://188.237.212.16:8888/live/cameraFeed.m3u8
+- **Frikanalen** — dead or empty stream — https://frikanalen.no/stream/index.m3u8
 - **RTP2 Ⓖ** — dead or empty stream — https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 - **SIC** — dead or empty stream — https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 - **RTP Açores** — dead or empty stream — https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
@@ -836,8 +835,8 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 
 ## Rejected candidates
 
+- **Live Cricket** — source group `` — https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9
 - **Deshe Bideshe** — source group `Bangla` — https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
-- **Sananda** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/sanandatv.stream/tracks-v1a1/mono.m3u8
 - **Jonmo Bhumi TV** — source group `Bangla` — https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/tracks-v1a1/mono.m3u8
 - **Independent** — source group `Bangladeshi` — https://sm-monirul.top/@monirul_Islam_SM/play/independent_tv.m3u8
 - **Sony Television** — source group `Indian Hindi` — https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8
@@ -890,7 +889,6 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **AzStarTV** — source group `Azerbaijan` — http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 - **Беларусь 5** — source group `Belarus` — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 - **Беларусь 24** — source group `Belarus` — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-- **Беларусь 5 Интернет** — source group `Belarus` — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 - **Belros Ⓢ** — source group `Belarus` — https://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 - **BX1** — source group `Belgium` — https://59959724487e3.streamlock.net/stream/live/playlist.m3u8
 - **RTV HB Ⓢ** — source group `Bosnia and Herzegovina` — https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
@@ -985,6 +983,7 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **Giovanni Paolo Tv** — source group `Italy` — https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
 - **Globus Television** — source group `Italy` — https://cdn.cubws.com/live/globus.m3u8
 - **Icaro Tv Rimini** — source group `Italy` — https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
+- **il61** — source group `Italy` — https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 - **Italia 2 Tv** — source group `Italy` — https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
 - **Iunior Tv** — source group `Italy` — https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
 - **La Nuova Tv** — source group `Italy` — https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8
@@ -1086,7 +1085,6 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **RTL Télé Lëtzebuerg** — source group `Luxembourg` — https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
 - **RTL Zwee** — source group `Luxembourg` — https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 - **Alcarria TV** — source group `Mexico` — http://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
-- **Sor TV** — source group `Moldova` — http://188.237.212.16:8888/live/cameraFeed.m3u8
 - **Omrop Fryslân** — source group `Netherlands` — https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/f8f68bd5/playlist.m3u8
 - **RTV Noord** — source group `Netherlands` — https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
 - **RTV Oost** — source group `Netherlands` — https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
@@ -1103,7 +1101,6 @@ Generated: **2026-09-20T07:57:36.469714+00:00**
 - **Sky Folk** — source group `North Macedonia` — https://skyfolk.mk/live.m3u8
 - **Folk Club TV** — source group `North Macedonia` — http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
 - **INTV** — source group `North Macedonia` — http://tv1.intv.mk:1935/live/intv/index.m3u8
-- **Frikanalen** — source group `Norway` — https://frikanalen.no/stream/index.m3u8
 - **4fun.tv Ⓢ** — source group `Poland` — https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 - **Al Rayyan** — source group `Qatar` — https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
 - **Al Rayyan Old TV** — source group `Qatar` — https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
