@@ -44,7 +44,7 @@ jobs:
           GROUPS = [
               'Bangladesh', 'Indian Bangla', 'Indian Movies', 'Indian Music',
               'Indian Entertainment', 'International Movies', 'International Music',
-              'Documentary & Wildlife', 'Kids', 'Religious', 'Sports',
+              'Documentary & Wildlife', 'Kids', 'Religious', 'Sports', 'Bangladesh Backup',
           ]
           # Deliberately conservative: only established/reputed channels may enter
           # these focused groups. Expand these sets only after manual review.
