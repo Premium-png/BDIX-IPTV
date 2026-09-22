@@ -9,18 +9,10 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout target repo
-        uses: actions/checkout@v3
+      - name: Sync master to main
+        uses: tgymrich/fork-sync-action@v2
         with:
-          repository: Premium-png/BDIX-IPTV  # आपकी रिपॉजिटरी
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Fetch and Force Sync
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git remote add upstream https://github.com
-          git fetch upstream
-          git checkout main
-          git reset --hard upstream/master
-          git push upstream main --force
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          owner: sajidujon-rahman             # ओरिजिनल ओनर का नाम
+          head: master                        # ओरिजिनल ओनर की सोर्स ब्रांच
+          base: main                          # आपके अकाउंट की टारगेट ब्रांच
