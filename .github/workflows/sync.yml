@@ -9,10 +9,11 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync master to main
-        uses: tgymrich/fork-sync-action@v2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: sajidujon-rahman             # ओरिजिनल ओनर का नाम
-          head: master                        # ओरिजिनल ओनर की सोर्स ब्रांच
-          base: main                          # आपके अकाउंट की टारगेट ब्रांच
+      - name: Checkout target repo
+        uses: actions/checkout@v3
+
+      - name: Sync with Upstream using GH CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh repo sync Premium-png/BDIX-IPTV -b main
