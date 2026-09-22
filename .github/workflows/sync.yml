@@ -1,0 +1,25 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # हर 5 मिनट में सिंक करेगा
+  workflow_dispatch: # मैनुअली रन करने का विकल्प
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@v3
+        with:
+          repository: sajidujon-rahman/BDIX-IPTV
+          persist-credentials: false
+          ref: master # ओरिजिनल रिपॉजिटरी की master ब्रांच उठाएगा
+
+      - name: Sync Upstream
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
+        with:
+          target_sync_branch: main # आपके अकाउंट की main ब्रांच में डालेगा
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_sync_branch: master # ओरिजिनल की master ब्रांच से उठाएगा
+          upstream_sync_repo: sajidujon-rahman/BDIX-IPTV
