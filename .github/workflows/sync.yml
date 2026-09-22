@@ -12,14 +12,15 @@ jobs:
       - name: Checkout target repo
         uses: actions/checkout@v3
         with:
-          repository: sajidujon-rahman/BDIX-IPTV
-          persist-credentials: false
-          ref: master # ओरिजिनल रिपॉजिटरी की master ब्रांच उठाएगा
+          repository: Premium-png/BDIX-IPTV  # आपकी रिपॉजिटरी
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Sync Upstream
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
-        with:
-          target_sync_branch: main # आपके अकाउंट की main ब्रांच में डालेगा
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-          upstream_sync_branch: master # ओरिजिनल की master ब्रांच से उठाएगा
-          upstream_sync_repo: sajidujon-rahman/BDIX-IPTV
+      - name: Fetch and Force Sync
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git remote add upstream https://github.com
+          git fetch upstream
+          git checkout main
+          git reset --hard upstream/master
+          git push upstream main --force
