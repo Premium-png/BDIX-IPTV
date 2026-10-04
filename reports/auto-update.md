@@ -1,6 +1,6 @@
 # IPTV Auto Update
 
-Generated: **2026-10-03T08:29:49.718743+00:00**
+Generated: **2026-10-04T08:43:13.342377+00:00**
 
 ## Summary
 
@@ -740,6 +740,7 @@ Generated: **2026-10-03T08:29:49.718743+00:00**
 ## Dead or empty stream imports
 
 - **Desh TV** — dead or empty stream — https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
+- **Jonmo Bhumi TV** — dead or empty stream — https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/tracks-v1a1/mono.m3u8
 - **BTV** — dead or empty stream — https://tvsen6.aynaott.com/opREbXLqJ2HFYPCXTJBa/index.m3u8
 - **Bangla 1** — dead or empty stream — https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8
 - **EP TV** — dead or empty stream — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8
@@ -765,7 +766,7 @@ Generated: **2026-10-03T08:29:49.718743+00:00**
 - **9X Jalwa** — dead or empty stream — http://103.175.73.12:8080/live/161/master.m3u8
 - **Music India** — dead or empty stream — https://cdn-2.pishow.tv/live/226/master.m3u8
 - **Sangeet Bhojpuri** — dead or empty stream — https://cdn-4.pishow.tv/live/1293/master.m3u8
-- **PTV Sports** — dead or empty stream — https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
+- **PTV Sports** — dead or empty stream — https://sonydaimenew.akamaized.net/hls/live/2120301/footlive0310/MAL/std_lrh-800300010.m3u8?hdnea=exp=1791077251~acl=/*~id=67682511578508228819575835755286~hmac=1301841c7cf091535e11690718074edbc64ea3650d9a0ce9c0eadec8d3957d01
 - **Tapmad 1** — dead or empty stream — https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
 - **Tapmad 2** — dead or empty stream — https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8
 - **Tapmad 3** — dead or empty stream — https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8
@@ -794,11 +795,11 @@ Generated: **2026-10-03T08:29:49.718743+00:00**
 - **Channel Win** — dead or empty stream — https://cdn-4.pishow.tv/live/229/master.m3u8
 - **Geo ENT** — dead or empty stream — https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
 - **Discovery Kids** — dead or empty stream — https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
-- **Беларусь 5 Интернет** — dead or empty stream — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 - **ISTV** — dead or empty stream — https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 - **Deportes13 Ⓖ** — dead or empty stream — https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/13d/13d.smil/playlist.m3u8
 - **CCTV-4 中文国际（美） Ⓢ** — dead or empty stream — https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 - **TeleKriti** — dead or empty stream — https://neon.streams.gr:8081/telekriti/index.m3u8
+- **TV Eger** — dead or empty stream — http://stream.tveger.hu:8010/live.m3u8
 - **Travel TV** — dead or empty stream — https://streaming.softwarecreation.it/GoldTvSat/GoldTvSat/playlist.m3u8
 - **SuperTennis** — dead or empty stream — https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 - **Alma TV** — dead or empty stream — https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
@@ -848,7 +849,6 @@ Generated: **2026-10-03T08:29:49.718743+00:00**
 - **Live Cricket** — source group `` — https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9
 - **Deshe Bideshe** — source group `Bangla` — https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
 - **Sananda** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/sanandatv.stream/tracks-v1a1/mono.m3u8
-- **Jonmo Bhumi TV** — source group `Bangla` — https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/tracks-v1a1/mono.m3u8
 - **Mohona TV HD** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
 - **Independent** — source group `Bangladeshi` — https://sm-monirul.top/@monirul_Islam_SM/play/independent_tv.m3u8
 - **Sony Television** — source group `Indian Hindi` — https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8
@@ -901,6 +901,7 @@ Generated: **2026-10-03T08:29:49.718743+00:00**
 - **AzStarTV** — source group `Azerbaijan` — http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 - **Беларусь 5** — source group `Belarus` — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 - **Беларусь 24** — source group `Belarus` — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
+- **Беларусь 5 Интернет** — source group `Belarus` — https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 - **Belros Ⓢ** — source group `Belarus` — https://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 - **BX1** — source group `Belgium` — https://59959724487e3.streamlock.net/stream/live/playlist.m3u8
 - **RTV HB Ⓢ** — source group `Bosnia and Herzegovina` — https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
@@ -938,7 +939,6 @@ Generated: **2026-10-03T08:29:49.718743+00:00**
 - **CityTV (Belváros Lipótváros)** — source group `Hungary` — https://citytv.hu/playlist.m3u8
 - **DTV** — source group `Hungary` — http://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8
 - **Vásárhelyi Televízió** — source group `Hungary` — https://stream.vasarhelyitelevizio.hu/stream/stream.m3u8
-- **TV Eger** — source group `Hungary` — http://stream.tveger.hu:8010/live.m3u8
 - **Budapest Európa TV** — source group `Hungary` — https://cloudfront44.lexanetwork.com:1344/freerelay/bpetv.sdp/playlist.m3u8
 - **Héviz TV** — source group `Hungary` — https://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8
 - **Jászsági Térségi TV** — source group `Hungary` — https://cloudfront44.lexanetwork.com:1344/relay01/broadcast007.sdp/playlist.m3u8
