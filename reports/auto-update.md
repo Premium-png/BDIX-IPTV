@@ -1,12 +1,12 @@
 # IPTV Auto Update
 
-Generated: **2026-10-15T07:42:19.831843+00:00**
+Generated: **2026-10-16T07:29:55.673092+00:00**
 
 ## Summary
 
 - Final playlist entries: **770**
 - New primary channels: **0**
-- New backup streams: **1**
+- New backup streams: **0**
 - Rejected new candidates: **1163**
 - Duplicate URLs removed: **0**
 
@@ -31,7 +31,7 @@ Generated: **2026-10-15T07:42:19.831843+00:00**
 
 ## New backup streams
 
-- **T Sports HD [Backup 2]** — `Sports` — https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
+- None
 
 ## Blocked stream imports
 
@@ -808,17 +808,13 @@ Generated: **2026-10-15T07:42:19.831843+00:00**
 - **Odeon 24** — dead or empty stream — https://streaming.softwarecreation.it/Odeon/Odeon/manifest.m3u8
 - **Parole di Vita** — dead or empty stream — https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
 - **Primantenna Torino** — dead or empty stream — https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8
-- **Radio Radiosa Tv** — dead or empty stream — https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8
-- **Rete Oro Tv** — dead or empty stream — https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
 - **ST Europe Channel** — dead or empty stream — https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 - **Sardegna 1** — dead or empty stream — https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
 - **T9** — dead or empty stream — https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
 - **Tele Ischia** — dead or empty stream — https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8
-- **Tele Mia Extra** — dead or empty stream — https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8
 - **Tele Pavia** — dead or empty stream — http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8
 - **Chamber TV** — dead or empty stream — https://media02.webtvlive.eu/chd-edge/_definst_/smil:chamber_tv_hd.smil/playlist.m3u8
 - **Jazz TV** — dead or empty stream — https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
-- **Frikanalen** — dead or empty stream — https://frikanalen.no/stream/index.m3u8
 - **4fun.tv Ⓢ** — dead or empty stream — https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 - **RTP2 Ⓖ** — dead or empty stream — https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 - **SIC** — dead or empty stream — https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
@@ -827,6 +823,7 @@ Generated: **2026-10-15T07:42:19.831843+00:00**
 - **RTP África** — dead or empty stream — https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 - **RTP Mundo** — dead or empty stream — https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 - **Первый канал** — dead or empty stream — https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+- **Белгород 24** — dead or empty stream — http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
 - **Сибирь 24** — dead or empty stream — https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/russia1-hd/index.m3u8
 - **Aragón TV Ⓢ** — dead or empty stream — https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 - **S4C Ⓖ** — dead or empty stream — https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
@@ -1026,12 +1023,14 @@ Generated: **2026-10-15T07:42:19.831843+00:00**
 - **Radio Monte Kronio Tv (R.M.K.)** — source group `Italy` — https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8
 - **Radio Norba Tv** — source group `Italy` — https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8
 - **Radio Radio Tv** — source group `Italy` — https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_22f84390fe1411ed919df3da85a483cc/rewind-14400.m3u8
+- **Radio Radiosa Tv** — source group `Italy` — https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8
 - **Reggio Tv** — source group `Italy` — https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
 - **Rete 55** — source group `Italy` — https://live1.giocabet.tv/stream/6/index.m3u8
 - **Rete 8** — source group `Italy` — https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8
 - **Rete 8 Sport** — source group `Italy` — https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 - **Rete Biella Tv** — source group `Italy` — https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 - **Rete Mia** — source group `Italy` — https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
+- **Rete Oro Tv** — source group `Italy` — https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
 - **Rete Sole** — source group `Italy` — https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
 - **Rete Tv Italia** — source group `Italy` — https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 - **Rossini Tv** — source group `Italy` — https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
@@ -1065,6 +1064,7 @@ Generated: **2026-10-15T07:42:19.831843+00:00**
 - **Tele Liguria Sud** — source group `Italy` — https://64b16f23efbee.streamlock.net/teleliguriasud/teleliguriasud/playlist.m3u8
 - **Tele Mantova** — source group `Italy` — https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8
 - **Tele Mia** — source group `Italy` — https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
+- **Tele Mia Extra** — source group `Italy` — https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8
 - **Tele Mistretta** — source group `Italy` — https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8
 - **Tele Molise** — source group `Italy` — http://185.202.128.1:1935/Telemolise4K/Telemolise4K/playlist.m3u8
 - **Tele Nord Genova** — source group `Italy` — https://64b16f23efbee.streamlock.net/telenord/telenord/playlist.m3u8
@@ -1103,6 +1103,7 @@ Generated: **2026-10-15T07:42:19.831843+00:00**
 - **Sky Folk** — source group `North Macedonia` — https://skyfolk.mk/live.m3u8
 - **Folk Club TV** — source group `North Macedonia` — http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
 - **INTV** — source group `North Macedonia` — http://tv1.intv.mk:1935/live/intv/index.m3u8
+- **Frikanalen** — source group `Norway` — https://frikanalen.no/stream/index.m3u8
 - **Al Rayyan** — source group `Qatar` — https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
 - **Al Rayyan Old TV** — source group `Qatar` — https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
 - **Al Jazeera Mubasher** — source group `Qatar` — https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
@@ -1110,7 +1111,6 @@ Generated: **2026-10-15T07:42:19.831843+00:00**
 - **Россия-24 Ⓢ** — source group `Russia` — https://player.smotrim.ru/iframe/stream/live_id/21
 - **CGTN Pусский** — source group `Russia` — https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 - **Астрахан 24** — source group `Russia` — https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-- **Белгород 24** — source group `Russia` — http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
 - **Ветта 24** — source group `Russia` — http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 - **Якутия 24** — source group `Russia` — https://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/playlist.m3u8
 - **360 Новости** — source group `Russia` — https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
