@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-10-30T08:55:12.361426+00:00**
+Generated: **2026-10-31T08:42:05.944555+00:00**
 
 ## Summary
 
 - Final playlist entries: **790**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1143**
+- Rejected new candidates: **1144**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -731,6 +731,7 @@ Generated: **2026-10-30T08:55:12.361426+00:00**
 
 ## Dead or empty stream imports
 
+- **Sananda** — dead or empty stream — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/sanandatv.stream/tracks-v1a1/mono.m3u8
 - **Bangla 1** — dead or empty stream — https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8
 - **EP TV** — dead or empty stream — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8
 - **Asian** — dead or empty stream — https://mtlivestream.com/hls/asian/ytlive/index.m3u8
@@ -772,7 +773,6 @@ Generated: **2026-10-30T08:55:12.361426+00:00**
 - **Alma TV** — dead or empty stream — https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
 - **4 You Tv** — dead or empty stream — https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
 - **Carina Tv** — dead or empty stream — https://samson.streamerr.co:8081/carinatv/index.m3u8
-- **Castrovillari Tv** — dead or empty stream — http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 - **Cusano News 7** — dead or empty stream — https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8
 - **Gold Tv** — dead or empty stream — https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 - **GO-TV Channel** — dead or empty stream — https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
@@ -812,6 +812,7 @@ Generated: **2026-10-30T08:55:12.361426+00:00**
 - **QVC Extra Ⓢ** — dead or empty stream — https://qvcuk-live.akamaized.net/hls/live/2097112/qex/3/3.m3u8
 - **QVC Style Ⓢ** — dead or empty stream — https://qvcuk-live.akamaized.net/hls/live/2097112/qst/3/3.m3u8
 - **5 Kanal** — dead or empty stream — https://776067.live.tvstitch.com/stream.m3u8?m=aHR0cHM6Ly9jZG4uZHl2eWFwcC5jb20vNS1jaGFubmVsL3ZpZGVvLm0zdTg%2FdG9rZW49ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjQ0k2SWpKaE1EWTZOVGt3TWpveE0yTXdPakE2WlRobFlqbzJNRGM0T2pSa01qcG1OV01pTENKMWMyVnlYMkZuWlc1MElqb2lUVzk2YVd4c1lWd3ZOUzR3SUNoWGFXNWtiM2R6SUU1VUlERXdMakE3SUZkcGJqWTBPeUI0TmpRN0lISjJPakV6Tmk0d0tTQkhaV05yYjF3dk1qQXhNREF4TURFZ1JtbHlaV1p2ZUZ3dk1UTTJMakFpTENKbGVIQWlPakUzTkRFNE1UUTVPVEI5Lkllb2JDR0NtVDVOd1pKSjdzNEhLaVIzb01IZVhpQ2dnZVp5WjZ6YWxodGM%3D&channel=1&u=b048004d-9363-4406-9b23-cb12b731d6e4&gdpr_consent=%7Bgdpr_consent%7D&givn=%7Bgivn%7D
+- **Дніпро TV** — dead or empty stream — http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
 - **MBC 3** — dead or empty stream — https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8
 - **MBC 5** — dead or empty stream — https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index.m3u8
 - **Wanasah** — dead or empty stream — https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
@@ -825,7 +826,6 @@ Generated: **2026-10-30T08:55:12.361426+00:00**
 - **Channel 9 HD** — source group `Entertainment` — https://nkafmbewiff.gpcdn.net/tile_7/master.m3u8
 - **BTV Shangshad** — source group `News` — https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8
 - **Deshe Bideshe** — source group `Bangla` — https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
-- **Sananda** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/sanandatv.stream/tracks-v1a1/mono.m3u8
 - **Jonmo Bhumi TV** — source group `Bangla` — https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/tracks-v1a1/mono.m3u8
 - **Zee Cinema HD** — source group `Indian Hindi` — https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8
 - **Sony Television** — source group `Indian Hindi` — https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8
@@ -959,6 +959,7 @@ Generated: **2026-10-30T08:55:12.361426+00:00**
 - **Canale Italia** — source group `Italy` — https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8
 - **Casa Italia 53** — source group `Italy` — https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 - **Casa Sanremo Tv** — source group `Italy` — https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
+- **Castrovillari Tv** — source group `Italy` — http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 - **Cittaceleste Tv** — source group `Italy` — https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 - **Company Tv** — source group `Italy` — https://company.fluid.stream/CompanyTV/smil:Company_ALL.smil/playlist.m3u8
 - **Cremona 1** — source group `Italy` — https://cdn2.streamshow.it/cloud-cremona1/cremona1/playlist.m3u8
