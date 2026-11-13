@@ -1,6 +1,6 @@
 # IPTV Auto Update
 
-Generated: **2026-11-12T10:07:20.554881+00:00**
+Generated: **2026-11-13T09:54:02.269399+00:00**
 
 ## Summary
 
@@ -768,6 +768,7 @@ Generated: **2026-11-12T10:07:20.554881+00:00**
 - **Sky News Weather** — dead or empty stream — https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 - **Discovery Kids** — dead or empty stream — https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
 - **TV Universidad** — dead or empty stream — https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+- **RTV ZE Ⓢ** — dead or empty stream — https://stream.rtvze.ba/live/123/123.m3u8
 - **ISTV** — dead or empty stream — https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 - **UCL** — dead or empty stream — https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/ucl/ucl.smil/playlist.m3u8
 - **Deportes13 Ⓖ** — dead or empty stream — https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/13d/13d.smil/playlist.m3u8
@@ -779,7 +780,6 @@ Generated: **2026-11-12T10:07:20.554881+00:00**
 - **Alma TV** — dead or empty stream — https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
 - **4 You Tv** — dead or empty stream — https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8
 - **Carina Tv** — dead or empty stream — https://samson.streamerr.co:8081/carinatv/index.m3u8
-- **Castrovillari Tv** — dead or empty stream — http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 - **Cusano News 7** — dead or empty stream — https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8
 - **Gold Tv** — dead or empty stream — https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 - **GO-TV Channel** — dead or empty stream — https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
@@ -790,10 +790,10 @@ Generated: **2026-11-12T10:07:20.554881+00:00**
 - **Motori Tv** — dead or empty stream — https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
 - **NTI Canale 271** — dead or empty stream — https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 - **Nuova TV Nazionale** — dead or empty stream — https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
-- **Nuova Tv 1** — dead or empty stream — https://nuovatv.net:8443/tv/stream.m3u8
 - **Odeon 24** — dead or empty stream — https://streaming.softwarecreation.it/Odeon/Odeon/manifest.m3u8
 - **Otto Channel** — dead or empty stream — https://ottop-live-meride.akamaized.net/hls/live/2039996/ch1/playlist.m3u8
 - **Parole di Vita** — dead or empty stream — https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
+- **Prima Tv Sicilia** — dead or empty stream — https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8
 - **Primantenna Torino** — dead or empty stream — https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8
 - **RTI Calabria** — dead or empty stream — https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
 - **ST Europe Channel** — dead or empty stream — https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
@@ -891,7 +891,6 @@ Generated: **2026-11-12T10:07:20.554881+00:00**
 - **BX1** — source group `Belgium` — https://59959724487e3.streamlock.net/stream/live/playlist.m3u8
 - **RTV HB Ⓢ** — source group `Bosnia and Herzegovina` — https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
 - **Televizija 5** — source group `Bosnia and Herzegovina` — https://balkanmedia.dynu.net/hls/tv5web.m3u8
-- **RTV ZE Ⓢ** — source group `Bosnia and Herzegovina` — https://stream.rtvze.ba/live/123/123.m3u8
 - **TV Cultura** — source group `Brazil` — https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 - **City TV Ⓢ** — source group `Bulgaria` — https://tv.city.bg/play/tshls/citytv/index.m3u8
 - **ICI RDI** — source group `Canada` — https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
@@ -966,6 +965,7 @@ Generated: **2026-11-12T10:07:20.554881+00:00**
 - **Canale Italia** — source group `Italy` — https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8
 - **Casa Italia 53** — source group `Italy` — https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 - **Casa Sanremo Tv** — source group `Italy` — https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
+- **Castrovillari Tv** — source group `Italy` — http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 - **Cittaceleste Tv** — source group `Italy` — https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 - **Company Tv** — source group `Italy` — https://company.fluid.stream/CompanyTV/smil:Company_ALL.smil/playlist.m3u8
 - **Cremona 1** — source group `Italy` — https://cdn2.streamshow.it/cloud-cremona1/cremona1/playlist.m3u8
@@ -991,6 +991,7 @@ Generated: **2026-11-12T10:07:20.554881+00:00**
 - **Made in BO** — source group `Italy` — https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 - **Medjugorje Italia Tv** — source group `Italy` — https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
 - **Minformo Tv** — source group `Italy` — https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
+- **Nuova Tv 1** — source group `Italy` — https://nuovatv.net:8443/tv/stream.m3u8
 - **Onda Novara Tv** — source group `Italy` — https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8
 - **Onda Tv Sicilia** — source group `Italy` — https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
 - **Onda Web Radio** — source group `Italy` — http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8
@@ -999,7 +1000,6 @@ Generated: **2026-11-12T10:07:20.554881+00:00**
 - **Peer Tv Alto Adige** — source group `Italy` — https://iptv.peer.biz/live/peertv-it.m3u8
 - **Peer TV Südtirol** — source group `Italy` — https://iptv.peer.biz/live/peertv.m3u8
 - **Prima Tv Napoli** — source group `Italy` — https://57068da1deb21.streamlock.net/primatvnapoli/primatvnapoli/playlist.m3u8
-- **Prima Tv Sicilia** — source group `Italy` — https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8
 - **PrimaFREE** — source group `Italy` — https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8
 - **Primocanale** — source group `Italy` — https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
 - **Promovideo Tv** — source group `Italy` — https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8
