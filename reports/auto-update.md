@@ -1,13 +1,13 @@
 # IPTV Auto Update
 
-Generated: **2026-11-16T10:05:28.770560+00:00**
+Generated: **2026-11-17T11:02:08.262521+00:00**
 
 ## Summary
 
 - Final playlist entries: **792**
 - New primary channels: **0**
 - New backup streams: **0**
-- Rejected new candidates: **1147**
+- Rejected new candidates: **1146**
 - Duplicate URLs removed: **0**
 
 ## Category totals
@@ -765,9 +765,7 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **Kids Pang TV** — dead or empty stream — https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
 - **Channel Win** — dead or empty stream — https://cdn-4.pishow.tv/live/229/master.m3u8
 - **Geo ENT** — dead or empty stream — https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
-- **Sky News Weather** — dead or empty stream — https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 - **Discovery Kids** — dead or empty stream — https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
-- **Jalwa Tv** — dead or empty stream — https://vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/playlist.m3u8
 - **TV Universidad** — dead or empty stream — https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 - **RTV ZE Ⓢ** — dead or empty stream — https://stream.rtvze.ba/live/123/123.m3u8
 - **ISTV** — dead or empty stream — https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
@@ -780,18 +778,20 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **SuperTennis** — dead or empty stream — https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 - **Alma TV** — dead or empty stream — https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
 - **Antenna 3 Massa** — dead or empty stream — https://media2021.rtvweb.com/antenna3massa/a3/playlist.m3u8
+- **Aristanis SuperTv** — dead or empty stream — https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
 - **Carina Tv** — dead or empty stream — https://samson.streamerr.co:8081/carinatv/index.m3u8
+- **Cittaceleste Tv** — dead or empty stream — https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 - **Cusano News 7** — dead or empty stream — https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8
 - **Giovanni Paolo Tv** — dead or empty stream — https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
 - **Gold Tv** — dead or empty stream — https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 - **GO-TV Channel** — dead or empty stream — https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8
 - **GS Channel** — dead or empty stream — https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8
 - **Italia 7** — dead or empty stream — https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
+- **La Nuova Tv** — dead or empty stream — https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8
 - **Lazio Tv** — dead or empty stream — https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8
 - **Motori Tv** — dead or empty stream — https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8
 - **NTI Canale 271** — dead or empty stream — https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 - **Nuova TV Nazionale** — dead or empty stream — https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
-- **Nuova Tv 1** — dead or empty stream — https://nuovatv.net:8443/tv/stream.m3u8
 - **Odeon 24** — dead or empty stream — https://streaming.softwarecreation.it/Odeon/Odeon/manifest.m3u8
 - **Otto Channel** — dead or empty stream — https://ottop-live-meride.akamaized.net/hls/live/2039996/ch1/playlist.m3u8
 - **Parole di Vita** — dead or empty stream — https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
@@ -816,7 +816,6 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **RTP Mundo** — dead or empty stream — https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 - **Первый канал** — dead or empty stream — https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 - **РБК** — dead or empty stream — http://92.50.128.180/utv/1358/index.m3u8
-- **Мир Белогорья** — dead or empty stream — http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
 - **Сибирь 24** — dead or empty stream — https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/russia1-hd/index.m3u8
 - **Aragón TV Ⓢ** — dead or empty stream — https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 - **S4C Ⓖ** — dead or empty stream — https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
@@ -831,10 +830,8 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **Sharjah TV** — dead or empty stream — https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
 - **Telesur** — dead or empty stream — https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/ve/telesur.m3u8
 - **DD India** — dead or empty stream — https://ythls.armelin.one/channel/UCGDQNvybfDDeGTf4GtigXaw.m3u8
-- **SABC News** — dead or empty stream — https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b250000_t64MjQwcA==.m3u8
 - **CNBC Indonesia** — dead or empty stream — https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 - **Ausbiz** — dead or empty stream — https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
-- **Sky News Weather Ⓖ** — dead or empty stream — https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 
 ## Rejected candidates
 
@@ -870,6 +867,7 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **ABN** — source group `Latest` — https://mediaserver.abnvideos.com/streams/abnurdu.m3u8
 - **AccuWeather** — source group `Weather` — https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 - **Fox Weather** — source group `Weather` — https://247wlive.foxweather.com/stream/index.m3u8
+- **Sky News Weather** — source group `Weather` — https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 - **Weather SPY** — source group `Weather` — https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
 - **Adventure Earth** — source group `Documentary` — https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
 - **Sports 18** — source group `` — http://atg100.xyz/live/UL33K17/SYC4T9D/1090644.ts
@@ -879,6 +877,7 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **Zee 24 Ghanta** — source group `` — https://d2dsoyvkr33m05.cloudfront.net/index_5.m3u8
 - **TV9 Bangla** — source group `` — https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8
 - **Republic Bangla** — source group `` — https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8
+- **Jalwa Tv** — source group `` — https://vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/playlist.m3u8
 - **CNA** — source group `Albania` — https://live1.mediadesk.al/cnatvlive.m3u8
 - **Ora News** — source group `Albania` — https://live1.mediadesk.al/oranews.m3u8
 - **Tropoja** — source group `Albania` — https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
@@ -956,7 +955,6 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **Alpauno** — source group `Italy` — https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8
 - **Alto Adige Tv** — source group `Italy` — https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8
 - **Antenna 2 Bergamo** — source group `Italy` — https://58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8
-- **Aristanis SuperTv** — source group `Italy` — https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
 - **Arte Network Orler** — source group `Italy` — https://tsw.streamingwebtv24.it:1936/artenetwork/artenetwork/playlist.m3u8
 - **Aurora Arte** — source group `Italy` — https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
 - **Bergamo Tv** — source group `Italy` — https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist.m3u8?DVR
@@ -970,7 +968,6 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **Casa Italia 53** — source group `Italy` — https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 - **Casa Sanremo Tv** — source group `Italy` — https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
 - **Castrovillari Tv** — source group `Italy` — http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
-- **Cittaceleste Tv** — source group `Italy` — https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
 - **Company Tv** — source group `Italy` — https://company.fluid.stream/CompanyTV/smil:Company_ALL.smil/playlist.m3u8
 - **Cremona 1** — source group `Italy` — https://cdn2.streamshow.it/cloud-cremona1/cremona1/playlist.m3u8
 - **Cusano Italia Tv** — source group `Italy` — https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8
@@ -983,7 +980,6 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **il61** — source group `Italy` — https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 - **Italia 2 Tv** — source group `Italy` — https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
 - **Iunior Tv** — source group `Italy` — https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
-- **La Nuova Tv** — source group `Italy` — https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8
 - **La Tenda Tv** — source group `Italy` — https://2-fss-1.streamhoster.com/pl_148/206202-2980948-1/playlist.m3u8
 - **La tr3 Marsala** — source group `Italy` — https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
 - **LaC News 24** — source group `Italy` — https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
@@ -995,6 +991,7 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **Made in BO** — source group `Italy` — https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 - **Medjugorje Italia Tv** — source group `Italy` — https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
 - **Minformo Tv** — source group `Italy` — https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
+- **Nuova Tv 1** — source group `Italy` — https://nuovatv.net:8443/tv/stream.m3u8
 - **Onda Novara Tv** — source group `Italy` — https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8
 - **Onda Tv Sicilia** — source group `Italy` — https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
 - **Onda Web Radio** — source group `Italy` — http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8
@@ -1172,12 +1169,14 @@ Generated: **2026-11-16T10:05:28.770560+00:00**
 - **Global News** — source group `News` — https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
 - **Russia Today Ⓖ** — source group `News` — https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 - **CNN International** — source group `News` — https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+- **SABC News** — source group `News` — https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b250000_t64MjQwcA==.m3u8
 - **Bloomberg TV+** — source group `Business` — https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8
 - **Bloomberg Television (US)** — source group `Business` — https://bloomberg.com/media-manifest/streams/us.m3u8
 - **Bloomberg Television (Europe)** — source group `Business` — https://bloomberg.com/media-manifest/streams/eu.m3u8
 - **Yahoo! Finance** — source group `Business` — https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
 - **Moconomy** — source group `Business` — https://amogonetworx-moconomy-2-us.tcl.wurl.tv/playlist.m3u8
 - **AccuWeather NOW** — source group `Weather` — https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
+- **Sky News Weather Ⓖ** — source group `Weather` — https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 - **France 24 Español Ⓨ** — source group `News (ES)` — https://www.youtube.com/c/FRANCE24Espanol/live
 - **DW Español Ⓢ** — source group `News (ES)` — https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
 - **CGTN Español** — source group `News (ES)` — https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
