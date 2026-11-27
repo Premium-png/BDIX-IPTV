@@ -1,11 +1,11 @@
 # IPTV Auto Update
 
-Generated: **2026-11-26T11:19:36.932548+00:00**
+Generated: **2026-11-27T11:13:01.803159+00:00**
 
 ## Summary
 
-- Final playlist entries: **807**
-- New primary channels: **2**
+- Final playlist entries: **808**
+- New primary channels: **0**
 - New backup streams: **1**
 - Rejected new candidates: **1150**
 - Duplicate URLs removed: **0**
@@ -22,17 +22,16 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **Documentary & Wildlife**: 86
 - **Kids**: 75
 - **Religious**: 35
-- **Sports**: 79
+- **Sports**: 80
 - **Bangladesh Backup**: 84
 
 ## New primary channels
 
-- **TNT SPORTS 1 HD** — `Sports` — http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/27.m3u8
-- **TNT SPORTS 2 HD** — `Sports` — http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/28.m3u8
+- None
 
 ## New backup streams
 
-- **Sky Sports Cricket [Backup 1]** — `Sports` — http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/25.m3u8
+- **Ten Cricket [Backup 1]** — `Sports` — https://live.msnetworks.net/ten-sports/master.m3u8
 
 ## Blocked stream imports
 
@@ -746,6 +745,7 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **Sony Television** — dead or empty stream — https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8
 - **Sony Sab HD** — dead or empty stream — https://stream.ottplus.bd/live/sub_hd_abr/index.m3u8
 - **Calcutta News** — dead or empty stream — https://akdnetwork.co.in/live/cnnew/index.m3u8
+- **R Plus News** — dead or empty stream — https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
 - **Republic Bangla** — dead or empty stream — https://vg-republictvyupp.akamaized.net/ptnr-yuppt/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-613605/93d674ab-f7a0-404e-88b2-b4f163373dbe/0.m3u8
 - **Tapmad 1** — dead or empty stream — https://d8j84o343a5m2.cloudfront.net/live/testtapmad5/master.m3u8
 - **Tapmad 2** — dead or empty stream — https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8
@@ -762,6 +762,7 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **Bleav Football** — dead or empty stream — https://tvsen7.aynaott.com/tsn2/index.m3u8
 - **Espn** — dead or empty stream — https://tvsen7.aynaott.com/espn/index.m3u8
 - **Iran Press** — dead or empty stream — https://live.presstv.ir/hls/presstv_5_482/index.m3u8
+- **R Plus** — dead or empty stream — https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
 - **Sangeet Bangla** — dead or empty stream — https://cdn-4.pishow.tv/live/1143/master.m3u8
 - **CMAC TV** — dead or empty stream — https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8
 - **ShemarooTV** — dead or empty stream — https://cdn-3.pishow.tv/live/230/master.m3u8
@@ -796,12 +797,10 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **NTI Canale 271** — dead or empty stream — https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 - **Nuova TV Nazionale** — dead or empty stream — https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 - **Odeon 24** — dead or empty stream — https://streaming.softwarecreation.it/Odeon/Odeon/manifest.m3u8
-- **Onda Tv Sicilia** — dead or empty stream — https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
 - **Otto Channel** — dead or empty stream — https://ottop-live-meride.akamaized.net/hls/live/2039996/ch1/playlist.m3u8
 - **Parole di Vita** — dead or empty stream — https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
 - **Primantenna Torino** — dead or empty stream — https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8
 - **Promovideo Tv** — dead or empty stream — https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8
-- **Rete Oro Tv** — dead or empty stream — https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
 - **RTI Calabria** — dead or empty stream — https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
 - **ST Europe Channel** — dead or empty stream — https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 - **Sardegna 1** — dead or empty stream — https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
@@ -849,7 +848,6 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **Sananda** — source group `Bangla` — http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/sanandatv.stream/tracks-v1a1/mono.m3u8
 - **Zee Cinema HD** — source group `Indian Hindi` — https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8
 - **Shemarooenterta** — source group `Indian Hindi` — https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
-- **R Plus News** — source group `Indian News` — https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
 - **Zee 24 Ghanta** — source group `Indian News` — https://d2dsoyvkr33m05.cloudfront.net/index_5.m3u8
 - **TV9 Bangla** — source group `Indian News` — https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
 - **Aaj Tak HD** — source group `Indian News` — https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8
@@ -862,7 +860,6 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **News Nation** — source group `News` — https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
 - **India Today** — source group `News` — https://feeds.intoday.in/hltapps/api/master.m3u8
 - **OAN** — source group `News` — https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8
-- **R Plus** — source group `Channels` — https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
 - **Goal TV** — source group `Channels` — https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 - **TBS** — source group `Channels` — https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 - **4k Travel TV** — source group `Channels` — https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
@@ -1003,6 +1000,7 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **Minformo Tv** — source group `Italy` — https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
 - **Nuova Tv 1** — source group `Italy` — https://nuovatv.net:8443/tv/stream.m3u8
 - **Onda Novara Tv** — source group `Italy` — https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8
+- **Onda Tv Sicilia** — source group `Italy` — https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
 - **Onda Web Radio** — source group `Italy` — http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8
 - **Orler Tv** — source group `Italy` — https://w1.mediastreaming.it/orlertv/livestream/playlist.m3u8
 - **Padre Pio Tv** — source group `Italy` — https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
@@ -1030,6 +1028,7 @@ Generated: **2026-11-26T11:19:36.932548+00:00**
 - **Rete 8 Sport** — source group `Italy` — https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 - **Rete Biella Tv** — source group `Italy` — https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
 - **Rete Mia** — source group `Italy` — https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
+- **Rete Oro Tv** — source group `Italy` — https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
 - **Rete Sole** — source group `Italy` — https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8
 - **Rete Tv Italia** — source group `Italy` — https://57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8
 - **Rossini Tv** — source group `Italy` — https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8
